@@ -1,18 +1,11 @@
 .container-home {
-    //background-color: red;
-    background-image: url("../../assets/img/bosque.png");
-    background-repeat: no-repeat;
-    background-origin: border-box;
     width: 100%;
     background-size: cover;
     height: 173vh;
-
-    z-index: 2 !important;
     position: relative;
 
     .bosque {
         width: 100%;
-
     }
 
 }

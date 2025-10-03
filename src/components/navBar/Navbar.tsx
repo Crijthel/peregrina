@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 import logo from "../../assets/logo_texto_negro.png";
 import "./NavBar.scss";
+import { NavDropdown } from "react-bootstrap";
 const NavbarComp = () => {
     return (
         <Navbar expand="lg" className="navbar-container">
@@ -15,13 +16,31 @@ const NavbarComp = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Ilustraciones</Nav.Link>
-                        <Nav.Link href="#link">
-                            Tratamiento de imagenes
-                        </Nav.Link>
-                        <Nav.Link href="#link">3D</Nav.Link>
-                        <Nav.Link href="#link">VFX</Nav.Link>
-                        <Nav.Link href="#link">Motion Graphics</Nav.Link>
+                        <NavDropdown
+                            title="Portfolio"
+                            id="navbarScrollingDropdown"
+                        >
+                            <NavDropdown.Item href="#action4">
+                                Tratamiento de imágenes
+                            </NavDropdown.Item>
+
+                            <NavDropdown.Item href="#action5">
+                                VFX
+                            </NavDropdown.Item>
+
+                            <NavDropdown.Item href="#action5">
+                                3D
+                            </NavDropdown.Item>
+
+                            <NavDropdown.Item href="#action3">
+                                Motion graphics
+                            </NavDropdown.Item>
+
+                            <NavDropdown.Item href="#action5">
+                                Ilustraciones
+                            </NavDropdown.Item>
+                        </NavDropdown>
+                        <Nav.Link href="#link">Contacto</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
