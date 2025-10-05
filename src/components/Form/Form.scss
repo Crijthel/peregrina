@@ -1,0 +1,75 @@
+.form {
+  width: 60vw;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .label {
+    font-weight: bolder;
+  }
+  .mail,
+  .textarea {
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    margin: 10px;
+    transition: 0.3s;
+    outline: none;
+    border: 3px solid #88d5bf;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  .mail::placeholder,
+  .textarea::placeholder {
+    color: black;
+  }
+  .mail:focus,
+  .textarea:focus {
+    border: 3px solid #282355;
+    background-color: rgba(0, 0, 0, 0.274);
+    color: white;
+  }
+  .textarea {
+    height: 40%;
+  }
+  .button {
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    color: rgb(65, 65, 65);
+    padding: 3px 5px;
+    width: 130px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.418);
+    font-weight: bolder;
+
+    &:hover {
+      color: white;
+      background-color: rgba(0, 0, 0, 0.418);
+      transition: 0.8s;
+    }
+  }
+}
+
+.loading {
+  padding-top: 10px;
+}
+
+.message {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .form {
+    width: 70vw;
+
+    .textarea {
+      height: 100px;
+    }
+  }
+}

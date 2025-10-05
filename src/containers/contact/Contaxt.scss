@@ -1,0 +1,49 @@
+.title {
+  padding-top: 70px;
+}
+
+.contact_container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0 100px 0;
+
+  .links {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      height: 100px;
+      width: 100px;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.4;
+        transition: 0.8s;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .contact_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    padding-top: 50px;
+  }
+
+  .contact_container {
+    .links {
+      img {
+        height: 70px;
+        width: 70px;
+      }
+    }
+  }
+}

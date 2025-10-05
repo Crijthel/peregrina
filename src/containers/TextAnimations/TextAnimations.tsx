@@ -1,19 +1,19 @@
 import "./TextAnimations.scss";
 import * as motion from "motion/react-client";
-import { useInView } from "motion/react";
+//import { useInView } from "motion/react";
 import fondo from "../../assets/img/FondoHome3.png";
 
-import { useRef } from "react";
+//import { useRef } from "react";
 const TextAnimations = () => {
-      const container = useRef(null)
-  const ref = useRef(null)
+  //    const container = useRef(null)
+  //const ref = useRef(null)
  // const isInView = useInView({ root: container })
 
-    const mostrarTexto = () => {
-       return  <div ref={container} style={{ overflow: "scroll" }}>
-      <div ref={ref} />
-    </div>
-    };
+  //  const mostrarTexto = () => {
+    //   return  <div ref={container} style={{ overflow: "scroll" }}>
+      //<div ref={ref} />
+    //</div>
+    //};
 
     return (
         <div className="text-a-container">
