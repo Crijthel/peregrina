@@ -1,22 +1,32 @@
+@import "../../variables.scss";
+
+#Contact{
+  background-color: red;
+}
 .title {
   padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  color: $negro;
 }
 
 .contact_container {
   display: flex;
   justify-content: space-evenly;
   padding: 50px 0 100px 0;
+  background-color: green;
 
   .links {
+    background-color: blue;
     width: 30vw;
     display: flex;
     justify-content: center;
     align-items: center;
 
     img {
-      height: 100px;
+      height: 70px;
       width: 100px;
-      cursor: pointer;
+     // cursor: pointer;
       &:hover {
         opacity: 0.4;
         transition: 0.8s;

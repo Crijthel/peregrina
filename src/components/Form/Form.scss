@@ -1,20 +1,21 @@
 .form {
   width: 60vw;
-  padding-bottom: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: #282355;
 
-  .label {
-    font-weight: bolder;
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
+
   .mail,
   .textarea {
     width: 80%;
     border-radius: 10px;
     padding: 10px;
     border: none;
-    margin: 10px;
+    margin: 10px 0;
     transition: 0.3s;
     outline: none;
     border: 3px solid #88d5bf;
@@ -23,22 +24,27 @@
     font-size: 16px;
     font-weight: bolder;
   }
+
   .mail::placeholder,
   .textarea::placeholder {
     color: black;
   }
+
   .mail:focus,
   .textarea:focus {
     border: 3px solid #282355;
     background-color: rgba(0, 0, 0, 0.274);
     color: white;
   }
+
   .textarea {
     height: 40%;
   }
+
   .button {
     background-color: transparent;
     border-radius: 10px;
+    margin-top: 10px;
     font-size: 20px;
     border: none;
     color: rgb(65, 65, 65);
