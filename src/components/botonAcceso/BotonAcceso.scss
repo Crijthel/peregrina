@@ -1,13 +1,15 @@
 .boton-acceso {
     width: 200px;
     height: 200px;
-background-color: red;
-border-radius: 100%;
-.imagen {
+    //background-color: red;
+    border-radius: 100%;
+    cursor: pointer;
+    
+    .imagen {
         border-radius: 100%;
         width: 100%;
         height: 100%;
-         object-fit: cover;
+        object-fit: cover;
     }
 
 

@@ -2,8 +2,8 @@ import React from "react";
 import Home from "./containers/Home/Home";
 import "./App.scss";
 import TextAnimations from "./containers/TextAnimations/TextAnimations";
-import Portfolio from "./containers/portfolio/Portfolio";
-import Contact from "./containers/contact/Contact";
+import Portfolio from "./containers/Portfolio/Portfolio";
+import Contact from "./containers/Contact/Contact";
 
 const App = () => {
     return (
