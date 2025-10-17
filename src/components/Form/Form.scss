@@ -1,7 +1,8 @@
+@import "../../variables.scss";
 .form {
   width: 60vw;
-  background-color: #282355;
-
+ // background-color: #282355;
+font-family: $komet;
   form {
     display: flex;
     justify-content: center;
@@ -18,16 +19,16 @@
     margin: 10px 0;
     transition: 0.3s;
     outline: none;
-    border: 3px solid #88d5bf;
+    border: 3px solid $azul-oscuro;
     background-color: transparent;
-    color: black;
+    color: $blanco;
     font-size: 16px;
     font-weight: bolder;
   }
 
   .mail::placeholder,
   .textarea::placeholder {
-    color: black;
+    color: $blanco;
   }
 
   .mail:focus,
@@ -47,11 +48,11 @@
     margin-top: 10px;
     font-size: 20px;
     border: none;
-    color: rgb(65, 65, 65);
+    color: $blanco;
     padding: 3px 5px;
     width: 130px;
     cursor: pointer;
-    border: 1px solid rgba(0, 0, 0, 0.418);
+    border: 3px solid $azul-oscuro;
     font-weight: bolder;
 
     &:hover {

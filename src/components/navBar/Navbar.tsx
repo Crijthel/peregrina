@@ -10,37 +10,37 @@ const NavbarComp = () => {
     return (
         <Navbar expand="lg" className="navbar-container">
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="/">
                     <img alt="" src={logo} className="logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <NavDropdown
-                            title="Portfolio"
+                            title="Portafolio"
                             id="navbarScrollingDropdown"
                         >
-                            <NavDropdown.Item href="#action4">
+                            <NavDropdown.Item href="/portafolio">
                                 Tratamiento de imágenes
                             </NavDropdown.Item>
 
-                            <NavDropdown.Item href="#action5">
+                            <NavDropdown.Item href="/portafolio">
                                 VFX
                             </NavDropdown.Item>
 
-                            <NavDropdown.Item href="#action5">
+                            <NavDropdown.Item href="/portafolio">
                                 3D
                             </NavDropdown.Item>
 
-                            <NavDropdown.Item href="#action3">
+                            <NavDropdown.Item href="/portafolio">
                                 Motion graphics
                             </NavDropdown.Item>
 
-                            <NavDropdown.Item href="#action5">
+                            <NavDropdown.Item href="/portafolio">
                                 Ilustraciones
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#link">Contacto</Nav.Link>
+                        <Nav.Link href="#contacto">Contacto</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

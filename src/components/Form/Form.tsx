@@ -7,11 +7,10 @@ const Formw = () => {
     //console.log("state", state);
 
     return (
-        <div className="form">
-            {state.succeeded === true && state.submitting === false ? (
+        <div className="form">  
+        <h1 className="title">Contacto</h1>
+            {state.succeeded === true && state.submitting === false && (
                 <p className="message">Pronto nos pondremos en contacto.</p>
-            ) : (
-                ""
             )}
 
             {state.submitting === true ? (
