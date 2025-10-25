@@ -15,17 +15,17 @@ const Portfolio = () => {
                 <div className="d-flex tres ">
                     <BotonAcceso
                         imagen={ilustraciones}
-                        nombre={"3D"}
+                        nombre={"Tratamiento de imágenes"}
                         hover={ilustracionesHover}
                     />
                     <BotonAcceso
                         imagen={ilustraciones}
-                        nombre={"3D"}
+                        nombre={"Motion Graphics"}
                         hover={ilustracionesHover}
                     />
                     <BotonAcceso
                         imagen={ilustraciones}
-                        nombre={"3D"}
+                        nombre={"Ilustraciones"}
                         hover={ilustracionesHover}
                     />
                 </div>
@@ -33,7 +33,7 @@ const Portfolio = () => {
                     <div className="contenedor-dos">
                         <BotonAcceso
                             imagen={ilustraciones}
-                            nombre={"3D"}
+                            nombre={"VFX"}
                             hover={ilustracionesHover}
                         />
                     </div>
