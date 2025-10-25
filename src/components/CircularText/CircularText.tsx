@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, Dispatch, SetStateAction } from "react";
 import {
     motion,
     useAnimation,
@@ -13,6 +13,7 @@ interface CircularTextProps {
     spinDuration?: number;
     onHover?: "slowDown" | "speedUp" | "pause" | "goBonkers";
     className?: string;
+    setIsHovering: Dispatch<SetStateAction<boolean>>;
 }
 
 const getRotationTransition = (
@@ -42,6 +43,7 @@ const CircularText: React.FC<CircularTextProps> = ({
     spinDuration = 20,
     onHover = "speedUp",
     className = "",
+    setIsHovering,
 }) => {
     const letters = Array.from(text);
     const controls = useAnimation();
@@ -63,7 +65,7 @@ const CircularText: React.FC<CircularTextProps> = ({
 
         let transitionConfig: ReturnType<typeof getTransition> | Transition;
         let scaleVal = 1;
-
+        setIsHovering(true);
         switch (onHover) {
             case "slowDown":
                 transitionConfig = getTransition(spinDuration * 2, start);
@@ -99,6 +101,7 @@ const CircularText: React.FC<CircularTextProps> = ({
             scale: 1,
             transition: getTransition(spinDuration, start),
         });
+        setIsHovering(false);
     };
 
     return (
