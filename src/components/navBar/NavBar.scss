@@ -7,7 +7,7 @@
     //background: linear-gradient(90deg, rgba(161, 205, 173, 1) 0%, rgba(167, 191, 195, 1) 100%);
     background: #ffffff;
     background: linear-gradient(360deg, rgba(255, 255, 255, 0) 10%, rgba(167, 191, 195, 1) 100%);
-  position: absolute !important;
+    position: absolute !important;
     top: 0;
     width: 100% !important;
     height: 113px;
@@ -21,11 +21,11 @@
 
     }
 
-    a {
+    a,.link {
         color: $negro;
     }
 
-    a:hover {
+    a:hover ,.link:hover{
         color: #ffffff !important;
 
     }

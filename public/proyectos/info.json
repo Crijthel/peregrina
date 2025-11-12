@@ -1,0 +1,102 @@
+{
+    "portafolio": {
+        "ilustraciones": {
+            "gif": "",
+            "proyectos": [
+                {
+                    "nombre": "",
+                    "imagen": "src/assets/proyectos/ilustraciones/are.avif",
+                    "video": "",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "",
+                    "imagen": "src/assets/proyectos/ilustraciones/cami.avif",
+                    "video": "",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "",
+                    "imagen": "src/assets/proyectos/ilustraciones/clari.avif",
+                    "video": "",
+                    "stack": ["", ""]
+                },
+
+                {
+                    "nombre": "",
+                    "imagen": "src/assets/proyectos/ilustraciones/guadi.avif",
+                    "video": "",
+                    "stack": ["", ""]
+                }
+            ]
+        },
+        "tresd": {
+            "gif": "",
+            "proyectos": [
+                {
+                    "nombre": "",
+                    "imagen": "",
+                    "video": "",
+                    "stack": ["", ""]
+                }
+            ]
+        },
+        "motion": {
+            "gif": "",
+            "proyectos": [
+                {
+                    "nombre": "",
+                    "imagen": "",
+                    "video": "",
+                    "stack": ["", ""]
+                }
+            ]
+        },
+        "vfx": {
+            "gif": "src/assets/proyectos/vfx/vfx.gif",
+            "proyectos": [
+                {
+                    "nombre": "Zombies",
+                    "imagen": "src/assets/proyectos/vfx/ejemplo.jpg",
+                    "video": "https://youtu.be/moyYZvR1BRs?si=kXnvYiFc6tEboNvp",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Harry Potter",
+                    "imagen": "src/assets/proyectos/vfx/HarryPotter(VFX)_00113.png",
+                    "video": "https://youtu.be/Hxe-eQjHzPs?si=GKBO8QtiudvK2GBg",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Samurai",
+                    "imagen": "src/assets/proyectos/vfx/ejemplo4.jpg",
+                    "video": "https://youtu.be/pmMJcfqSRjQ?si=1tb2bluhAfyGM7pn",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Assassin's Creed",
+                    "imagen": "src/assets/proyectos/vfx/ejemplo5.jpg",
+                    "video": "https://youtu.be/IbdwBQ9Ewl4?si=iSpTLDKDeTputZhP",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Castillo",
+                    "imagen": "src/assets/proyectos/vfx/castillo_portada.png",
+                    "video": "https://youtu.be/gjURFQ75_8w?si=nt61s_Moo2BD9GQb",
+                    "stack": ["", ""]
+                }
+            ]
+        },
+        "tratamiento": {
+            "gif": "",
+            "proyectos": [
+                {
+                    "nombre": "",
+                    "imagen": "",
+                    "video": "",
+                    "stack": ["", ""]
+                }
+            ]
+        }
+    }
+}

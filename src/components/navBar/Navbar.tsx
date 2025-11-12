@@ -1,11 +1,8 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-
 import logo from "../../assets/logo_texto_negro.png";
 import "./NavBar.scss";
-import { NavDropdown } from "react-bootstrap";
+import { NavDropdown, Navbar, Nav, Container } from "react-bootstrap";
+
 const NavbarComp = () => {
     return (
         <Navbar expand="lg" className="navbar-container">
@@ -20,23 +17,19 @@ const NavbarComp = () => {
                             title="Portafolio"
                             id="navbarScrollingDropdown"
                         >
-                            <NavDropdown.Item href="/portafolio">
+                            <NavDropdown.Item href="/portafolio/tratamiento-de-imagenes">
                                 Tratamiento de imágenes
                             </NavDropdown.Item>
-
-                            <NavDropdown.Item href="/portafolio">
+                            <NavDropdown.Item href="/portafolio/vfx">
                                 VFX
                             </NavDropdown.Item>
-
-                            <NavDropdown.Item href="/portafolio">
+                            <NavDropdown.Item href="/portafolio/3d">
                                 3D
                             </NavDropdown.Item>
-
-                            <NavDropdown.Item href="/portafolio">
+                            <NavDropdown.Item href="/portafolio/motion-graphics">
                                 Motion graphics
                             </NavDropdown.Item>
-
-                            <NavDropdown.Item href="/portafolio">
+                            <NavDropdown.Item href="/portafolio/ilustraciones">
                                 Ilustraciones
                             </NavDropdown.Item>
                         </NavDropdown>
