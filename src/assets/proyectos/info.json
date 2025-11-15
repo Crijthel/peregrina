@@ -34,9 +34,111 @@
             "gif": "",
             "proyectos": [
                 {
-                    "nombre": "",
-                    "imagen": "",
-                    "video": "",
+                    "nombre": "Chico Buso Pintor",
+                    "imagen": "proyectos/3d/chico-buso-pintor.png",
+                    "video": "https://www.youtube.com/embed/rDM6TjKru2k?si=fCuqGWN2JH_QxIuy",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Robot Arelio",
+                    "imagen": "proyectos/3d/secuencia_are.png",
+                    "video": "https://www.youtube.com/embed/Svpt5k8X2j4?si=sXIbY8688woLuPJs",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Swicth",
+                    "imagen": "proyectos/3d/Swicth(3D)_00001.png",
+                    "video": "https://www.youtube.com/embed/ihm8XULtq9Q?si=eB9GSEeeePb08kA0",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Trico",
+                    "imagen": "proyectos/3d/trico(3D)_00000.png",
+                    "video": "https://www.youtube.com/embed/qnL4DZ6MG5s?si=JLg93MPlQdoCkJ3-",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Tele",
+                    "imagen": "proyectos/3d/Tele(3D)_00001.png",
+                    "video": "https://www.youtube.com/embed/ycBDVZqJA4c?si=RDiJolcCTkDI8G4K",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Robot Juego",
+                    "imagen": "proyectos/3d/robotjuego-video_00001.png",
+                    "video": "https://www.youtube.com/embed/FQo-gxS-Nyw?si=1A7Dvp0gYyv6itq3",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Auto Fiat",
+                    "imagen": "proyectos/3d/video_auto_00031.png",
+                    "video": "https://www.youtube.com/embed/gS4ty11_27c?si=PmdwNEX_X4MXqUll",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Robot Lechero",
+                    "imagen": "proyectos/3d/video_robotLechero_00000.png",
+                    "video": "https://www.youtube.com/embed/2cSG0Ky8bA0?si=mQWGoHGyNnSZV6Rr",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Robot",
+                    "imagen": "proyectos/3d/robot_futurista00000.png",
+                    "video": "https://www.youtube.com/embed/knuGhnUcFHA?si=q1NhcEQqjcZTUaRZ",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Reloj Cucú",
+                    "imagen": "proyectos/3d/reloj_00001.png",
+                    "video": "https://www.youtube.com/embed/E6Iq0fGaKhc?si=e5R_L-rg0SvkG4zK",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Pistola",
+                    "imagen": "proyectos/3d/ArtStation_Are010009.png",
+                    "video": "https://www.youtube.com/embed/iDl8HMnbYCk?si=5SH3yozuxMWRhhpV",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Restaurante futurista",
+                    "imagen": "proyectos/3d/restaurante.png",
+                    "video": "https://www.youtube.com/embed/JVhbW_4mkBM?si=Ruj7HWS0H1Ix2YLf",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Ice cream truck",
+                    "imagen": "proyectos/3d/icecreamtruck_00001.png",
+                    "video": "https://www.youtube.com/embed/ECsuGfIPb3k?si=V05G6mrW4IhQrQg4",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Maquina",
+                    "imagen": "proyectos/3d/rendermaquina_frame_VAL.png",
+                    "video": "https://www.youtube.com/embed/yOQe8VC1OnQ?si=yLPNxKj3jkJ0gdeI",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Heladerita",
+                    "imagen": "proyectos/3d/renderheladerita_frame_VAL.png",
+                    "video": "https://www.youtube.com/embed/PgA2sDN0L0U?si=NiJ3arHqbJa7ECbm",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Robotito",
+                    "imagen": "proyectos/3d/Robotito_00000.png",
+                    "video": "https://www.youtube.com/embed/-8G-Z7J1CBE?si=ORuCX6wKY3q9laRS",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Shinwo",
+                    "imagen": "proyectos/3d/Shinwoo_0094.png",
+                    "video": "https://www.youtube.com/embed/kEw03ULeG5M?si=Y2K92UlXhYC_xeLF",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Toyplane",
+                    "imagen": "proyectos/3d/toyplane.png",
+                    "video": "https://www.youtube.com/embed/_w-zybgNMAs?si=Elj--uUmSu2zYmda",
                     "stack": ["", ""]
                 }
             ]
@@ -45,9 +147,51 @@
             "gif": "",
             "proyectos": [
                 {
-                    "nombre": "",
-                    "imagen": "",
-                    "video": "",
+                    "nombre": "The fate of Ophelia",
+                    "imagen": "proyectos/motion/taylor-foo_motion_.png",
+                    "video": "https://youtu.be/yRftOSu5Ycc",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Ojo",
+                    "imagen": "proyectos/motion/motion_graphic_00093.png",
+                    "video": "https://youtu.be/ASuGDThcGa8",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Luciernagas",
+                    "imagen": "proyectos/motion/Luciernagas_00053.png",
+                    "video": "https://youtu.be/NXoPa786cpM",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Tinder mitico",
+                    "imagen": "proyectos/motion/Tinder_mitico_arreglo_00079.png",
+                    "video": "https://youtu.be/VfwpKVXNaeo",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Perritos",
+                    "imagen": "proyectos/motion/perritos_00037.png",
+                    "video": "https://youtu.be/A7cQN0fofuw",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "ChatGpt",
+                    "imagen": "proyectos/motion/chatgpt_00278.png",
+                    "video": "https://youtu.be/f4DbgLJhztY",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Again",
+                    "imagen": "proyectos/motion/again_00193.png",
+                    "video": "https://youtu.be/SxER1y3UJXA",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Abasto",
+                    "imagen": "proyectos/motion/15sMotionGraphicsAbasto_00072.png",
+                    "video": "https://www.youtube.com/embed/kfLJnWxHvU8?si=ENnwBEnnwUdaUNbP",
                     "stack": ["", ""]
                 }
             ]
@@ -91,9 +235,51 @@
             "gif": "",
             "proyectos": [
                 {
-                    "nombre": "",
-                    "imagen": "",
+                    "nombre": "hunter x hunter",
+                    "imagen": "proyectos/tratamiento/hxh.png",
                     "video": "",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Hobbit",
+                    "imagen": "proyectos/tratamiento/hobbit.png",
+                    "video": "https://youtube.com/shorts/F7rZQccU5tQ",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Hunger Games",
+                    "imagen": "proyectos/tratamiento/Cristhel_Francisco.avif",
+                    "video": "https://youtube.com/shorts/AH8cwh8FVqE",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "VioletEvergarden",
+                    "imagen": "proyectos/tratamiento/photoshop_edited.avif",
+                    "video": "https://youtube.com/shorts/rNVw7cSA4gg",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Shutter Island",
+                    "imagen": "proyectos/tratamiento/areli_gomila_final.jpg",
+                    "video": "https://youtube.com/shorts/3G54aVHYnss",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Dark",
+                    "imagen": "proyectos/tratamiento/DarkIIiI.jpg",
+                    "video": "https://youtube.com/shorts/PRiWT1I0q9I",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "Heartstopper",
+                    "imagen": "proyectos/tratamiento/poster_heartstopper_valen.jpg",
+                    "video": "https://youtube.com/shorts/6Je_qkjakAM",
+                    "stack": ["", ""]
+                },
+                {
+                    "nombre": "The Raven Cycle ",
+                    "imagen": "proyectos/tratamiento/raven.jpg",
+                    "video": "https://youtube.com/shorts/6Je_qkjakAM",
                     "stack": ["", ""]
                 }
             ]

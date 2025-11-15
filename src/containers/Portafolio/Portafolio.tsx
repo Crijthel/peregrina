@@ -13,9 +13,10 @@ const Portafolio = () => {
             <NavbarComp />
             <div className="portafolio-container">
                 <h1>{params.tipo}</h1>
-            </div>
+         
+            <Proyectos /> 
+              </div>
 
-            <Proyectos />
             <Contact />
         </>
     );
