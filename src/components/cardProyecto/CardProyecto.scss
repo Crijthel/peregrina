@@ -1,18 +1,19 @@
 .card-proyecto-container {
     background-color: aqua;
+    border-radius: 10px;
     width: 250px;
     height: 250px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
 
-    img{
+    img {
         width: 200px;
         height: 200px;
         object-fit: cover;
-//        object-fit: contain;
+        //        object-fit: contain;
 
     }
 }

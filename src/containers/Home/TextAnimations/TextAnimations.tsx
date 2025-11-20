@@ -1,17 +1,17 @@
 import "./TextAnimations.scss";
-import * as motion from "motion/react-client";
+//import * as motion from "motion/react-client";
 //import { useInView } from "motion/react";
 import fondo from "../../../assets/fondo/FondoHome3.png";
 
 //import { useRef } from "react";
 const TextAnimations = () => {
-  //    const container = useRef(null)
-  //const ref = useRef(null)
- // const isInView = useInView({ root: container })
+    //    const container = useRef(null)
+    //const ref = useRef(null)
+    // const isInView = useInView({ root: container })
 
-  //  const mostrarTexto = () => {
+    //  const mostrarTexto = () => {
     //   return  <div ref={container} style={{ overflow: "scroll" }}>
-      //<div ref={ref} />
+    //<div ref={ref} />
     //</div>
     //};
 
@@ -19,22 +19,22 @@ const TextAnimations = () => {
         <div className="text-a-container">
             <img alt="fondo" src={fondo} className="fondo" />
             <div className="espacio"></div>
-
+            {/* 
             <motion.div
-                style={{ width: 200, height: 100, backgroundColor: "#5686F5" }}
-            //    initial={{ opacity: 0, scale: 0 }}
-               initial="offscreen" 
+                style={{ width: 200, height: 100 }}
+                //    initial={{ opacity: 0, scale: 0 }}
+                initial="offscreen"
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
                     duration: 0.4,
                     scale: { type: "spring", visualDuration: 1, bounce: 0.5 },
                 }}
-               
-            whileInView="onscreen"
+                whileInView="onscreen"
             >
-                <span className="texto text-part left">Somosss</span>
-            </motion.div>
-            {//mostrarTexto()
+               <span className="texto text-part left">Somosss</span> 
+            </motion.div>*/}
+            {
+                //mostrarTexto()
             }
             <div className="textos-container">
                 <div className="split-text-container uno">
