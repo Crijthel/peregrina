@@ -4,9 +4,9 @@ import ig from "../../../assets/icons/IG-01.avif";
 import art from "../../../assets/icons/ARTSTATIOn-01.avif";
 import "./Contact.scss";
 //import Form from "./Form";
-const Contact = () => {
+const Contact = ({page}: any) => {
     return (
-        <div id="contacto">
+        <div id="contacto" className={page}>
             <div className="contact_container">
                 <Formw />
                 <div className="links">

@@ -5,6 +5,7 @@ import ilustracionesHover from "../../../assets/proyectos/tratamiento/ilustracio
 import vfx from "../../../assets/proyectos/vfx/HarryPotter(VFX)_00113.png";
 import vfxHover from "../../../assets/proyectos/vfx/vfx.gif";
 import BotonAcceso from "../../../components/botonAcceso/BotonAcceso";
+import ProductivitySlider from '../../../components/productivitySlider/ProductivitySlider';
 
 const SeccionPortafolio = () => {
     return (
@@ -14,7 +15,9 @@ const SeccionPortafolio = () => {
                 Nuestro trabajo
             </h1>
             <div className="botones-container">
-                <div className="d-flex tres ">
+                <ProductivitySlider/>
+                
+                {/* <div className="d-flex tres ">
                     <BotonAcceso
                         link={"tratamiento-de-imagenes"}
                         imagen={ilustraciones}
@@ -56,7 +59,7 @@ const SeccionPortafolio = () => {
                             repeate={true}
                         />
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );

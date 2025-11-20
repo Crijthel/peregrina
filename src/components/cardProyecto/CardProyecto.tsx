@@ -13,7 +13,7 @@ const CardProyecto = ({ item }: any) => {
                 onClick={() => setModalShow(true)}
             >
                 <img src={srcImg}  alt={item.nombre} />
-                {item.nombre !== "" && <span>{item.nombre}</span>}
+                {/* {item.nombre !== "" && <span>{item.nombre}</span>} */}
             </div>
             <MyVerticallyCenteredModal
                 show={modalShow}

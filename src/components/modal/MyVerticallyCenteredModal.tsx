@@ -3,8 +3,7 @@ import "./Modal.scss";
 import Modal from "react-bootstrap/Modal";
 
 const MyVerticallyCenteredModal = (props: any) => {
-    const srcImg =
-        props.item.imagen !== "" ? "../../../" + props.item.imagen : "";
+    
     return (
         <Modal
             className="modaaaal"
@@ -19,7 +18,6 @@ const MyVerticallyCenteredModal = (props: any) => {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <img className="imagen-modal zoom" src={srcImg} alt="" />
                 <iframe
                     className="video-modal"
                     loading="eager"

@@ -1,0 +1,252 @@
+import React, { useRef, useState, useEffect, useCallback } from "react";
+import "./ProductivitySlider.scss"; // Asegúrate de que el CSS esté en este archivo
+import tratamiento from "../../assets/proyectos/tratamiento/Guadalupe Novas - Final - Tratamiento 2.png";
+import tratamientoHover from "../../assets/proyectos/tratamiento/ilustraciones.gif";
+import tresd from "../../assets/proyectos/3d/video_auto_00031.png";
+import ilustraciones from "../../assets/proyectos/ilustraciones/cami.avif";
+import motion from "../../assets/proyectos/motion-g/15sMotionGraphicsAbasto_00072.png";
+import vfx from "../../assets/proyectos/vfx/ejemplo4.jpg";
+import vfxHover from "../../assets/proyectos/vfx/vfx.gif";
+import { Link } from "react-router";
+
+// Datos para las tarjetas, extraídos del HTML
+const initialCardsData = [
+    {
+        title: "Tratamiento de imágenes",
+        desc: "mejorar su calidad visual o adaptarlas a necesidades específicas",
+        bgSrc: tratamiento,
+        thumbSrc: tratamientoHover,
+        link: "tratamiento-de-imagenes",
+    },
+    {
+        title: "Motion Graphics",
+        desc: " movimiento a elementos gráficos.",
+        bgSrc: motion,
+        thumbSrc: motion,
+        link: "motion-graphics",
+    },
+    {
+        title: "Ilustraciones",
+        desc: "Hechos con todo tipo de herramientas digitales y dispositivos electrónicos.",
+        bgSrc: ilustraciones,
+        thumbSrc: ilustraciones,
+        link: "ilustraciones",
+    },
+    {
+        title: "VFX",
+        desc: "Efectos especiales personalizados a tu necesidad",
+        bgSrc: vfx,
+        thumbSrc: vfxHover,
+        link: "vfx",
+    },
+    {
+        title: "3D",
+        desc: "¿Por qué quedarse en 2D?",
+        bgSrc: tresd,
+        thumbSrc: tresd,
+        link: "3d",
+    },
+];
+
+const ProductivitySlider = () => {
+    const trackRef = useRef(null);
+    const cardsRef: any = useRef([]);
+    const wrapRef = useRef(null); // Referencia al div.slider (contenedor del track)
+    const [current, setCurrent] = useState(0);
+    const isMobile = () => window.matchMedia("(max-width:767px)").matches;
+    const cardsLength = initialCardsData.length;
+
+    // Función para centrar la tarjeta activa
+    const centerCard = useCallback((index: any) => {
+        if (!wrapRef.current || !cardsRef.current[index]) return;
+
+        const card: any = cardsRef.current[index];
+        const wrap: any = wrapRef.current;
+
+        const mobile = isMobile();
+        const axis = mobile ? "top" : "left";
+        const sizeProp = mobile ? "clientHeight" : "clientWidth";
+        const start = mobile ? card.offsetTop : card.offsetLeft;
+
+        wrap.scrollTo({
+            [axis]: start - (wrap[sizeProp] / 2 - card[sizeProp] / 2),
+            behavior: "smooth",
+        });
+    }, []);
+
+    // Función para activar una tarjeta (navegación por botones, dots o clic)
+    const activate = useCallback(
+        (index: any, scroll = false) => {
+            if (index === current) return;
+
+            const newIndex = Math.min(Math.max(index, 0), cardsLength - 1);
+            setCurrent(newIndex);
+            if (scroll) centerCard(newIndex);
+        },
+        [current, cardsLength, centerCard]
+    );
+
+    // Función para mover el slider (Prev/Next)
+    const go = (step: any) => {
+        const newIndex = current + step;
+        activate(newIndex, true);
+    };
+
+    // Efecto para centrar la tarjeta al cargar y al redimensionar
+    useEffect(() => {
+        centerCard(current);
+
+        const handleResize = () => centerCard(current);
+        window.addEventListener("resize", handleResize);
+
+        // Limpiar el event listener al desmontar
+        return () => window.removeEventListener("resize", handleResize);
+    }, [centerCard, current]);
+
+    // Manejador de teclado
+    useEffect(() => {
+        const handleKeyDown = (e: any) => {
+            if (["ArrowRight", "ArrowDown"].includes(e.key)) go(1);
+            if (["ArrowLeft", "ArrowUp"].includes(e.key)) go(-1);
+        };
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [current]); // Dependencia en 'current' para asegurar que 'go' use el estado más reciente
+
+    // Lógica de Swipe Táctil
+    useEffect(() => {
+        if (!trackRef.current) return;
+        let sx = 0;
+        let sy = 0;
+
+        const handleTouchStart = (e: any) => {
+            sx = e.touches[0].clientX;
+            sy = e.touches[0].clientY;
+        };
+        const handleTouchEnd = (e: any) => {
+            const dx = e.changedTouches[0].clientX - sx;
+            const dy = e.changedTouches[0].clientY - sy;
+            const mobile = isMobile();
+
+            if (mobile ? Math.abs(dy) > 60 : Math.abs(dx) > 60) {
+                go((mobile ? dy : dx) > 0 ? -1 : 1);
+            }
+        };
+
+        const trackElement: any = trackRef.current;
+        trackElement.addEventListener("touchstart", handleTouchStart, {
+            passive: true,
+        });
+        trackElement.addEventListener("touchend", handleTouchEnd, {
+            passive: true,
+        });
+
+        return () => {
+            trackElement.removeEventListener("touchstart", handleTouchStart);
+            trackElement.removeEventListener("touchend", handleTouchEnd);
+        };
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
+
+    return (
+        <section>
+            <div className="head">
+                <h2>Boost your professional workflow and productivity</h2>
+
+                <div className="controls">
+                    <button
+                        id="prev"
+                        className="nav-btn"
+                        aria-label="Prev"
+                        onClick={() => go(-1)}
+                        disabled={current === 0}
+                    >
+                        &lsaquo;
+                    </button>
+                    <button
+                        id="next"
+                        className="nav-btn"
+                        aria-label="Next"
+                        onClick={() => go(1)}
+                        disabled={current === cardsLength - 1}
+                    >
+                        &rsaquo;
+                    </button>
+                </div>
+            </div>
+
+            <div className="slider" ref={wrapRef}>
+                <div className="track" id="track" ref={trackRef}>
+                    {initialCardsData.map((card, index) => (
+                        <article
+                            key={index}
+                            className="project-card"
+                            data-active={current === index ? "true" : undefined}
+                            ref={(el: HTMLElement | null) => {
+                                cardsRef.current[index] = el;
+                            }}
+                            onClick={() => activate(index, true)}
+                            onMouseEnter={() =>
+                                window.matchMedia("(hover:hover)").matches &&
+                                activate(index, true)
+                            }
+                        >
+                            <img
+                                className="project-card__bg"
+                                src={card.bgSrc}
+                                alt=""
+                            />
+                            <div className="project-card__content">
+                                {current === index && ( // Renderizar solo el contenido completo si está activo
+                                    <>
+                                        <img
+                                            className="project-card__thumb"
+                                            src={card.thumbSrc}
+                                            alt=""
+                                        />
+                                        <div>
+                                            <h3 className="project-card__title">
+                                                {card.title}
+                                            </h3>
+                                            <p className="project-card__desc">
+                                                {card.desc}
+                                            </p>
+                                            <button className="project-card__btn">
+                                                <Link
+                                                    to={
+                                                        "portafolio/" +
+                                                        card.link
+                                                    }
+                                                >
+                                                    Ver más
+                                                </Link>
+                                            </button>
+                                        </div>
+                                    </>
+                                )}
+                                {current !== index && ( // Renderizar solo el título si no está activo (modo vertical/mini)
+                                    <h3 className="project-card__title">
+                                        {card.title}
+                                    </h3>
+                                )}
+                            </div>
+                        </article>
+                    ))}
+                </div>
+            </div>
+
+            <div className="dots" id="dots">
+                {initialCardsData.map((_, index) => (
+                    <span
+                        key={index}
+                        className={`dot ${current === index ? "active" : ""}`}
+                        onClick={() => activate(index, true)}
+                    ></span>
+                ))}
+            </div>
+        </section>
+    );
+};
+
+export default ProductivitySlider;
