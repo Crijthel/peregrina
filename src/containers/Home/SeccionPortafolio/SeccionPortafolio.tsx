@@ -1,11 +1,6 @@
 import React from "react";
 import "./SeccionPortafolio.scss";
-import ilustraciones from "../../../assets/proyectos/tratamiento/areli_gomila_final.jpg";
-import ilustracionesHover from "../../../assets/proyectos/tratamiento/ilustraciones.gif";
-import vfx from "../../../assets/proyectos/vfx/HarryPotter(VFX)_00113.png";
-import vfxHover from "../../../assets/proyectos/vfx/vfx.gif";
-import BotonAcceso from "../../../components/botonAcceso/BotonAcceso";
-import ProductivitySlider from '../../../components/productivitySlider/ProductivitySlider';
+import ProductivitySlider from "../../../components/productivitySlider/ProductivitySlider";
 
 const SeccionPortafolio = () => {
     return (
@@ -15,8 +10,8 @@ const SeccionPortafolio = () => {
                 Nuestro trabajo
             </h1>
             <div className="botones-container">
-                <ProductivitySlider/>
-                
+                <ProductivitySlider />
+
                 {/* <div className="d-flex tres ">
                     <BotonAcceso
                         link={"tratamiento-de-imagenes"}

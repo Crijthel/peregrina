@@ -1,4 +1,4 @@
-import bosque from "../../assets/fondo/bosqueanimado.gif";
+import bosque from "../../assets/fondo/bosqueanimado2.gif";
 //C:/Users/Andrea/OneDrive/Escritorio/peregrina/public/bosqueanimado.gif
 import NavbarComp from "../../components/navBar/Navbar";
 import Contact from "./Contact/Contact";

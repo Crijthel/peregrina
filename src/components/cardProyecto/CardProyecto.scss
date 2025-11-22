@@ -1,6 +1,6 @@
 .card-proyecto-container {
   // background-color: #475AA6;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 200px;
   height: 200px;
   display: flex;
@@ -11,12 +11,19 @@
   cursor: pointer !important;
 
   img {
-    border-radius: 10px;
+    border-radius: 20px;
 
     width: 200px;
     height: 200px;
     object-fit: cover;
     //        object-fit: contain;
+  }
+
+  .centerRight {
+    object-fit: cover;
+    object-position: 100% 100%;
+
+
   }
 }
 

@@ -12,9 +12,14 @@ const CardProyecto = ({ item }: any) => {
                 className="card-proyecto-container"
                 onClick={() => setModalShow(true)}
             >
-                <img src={srcImg}  alt={item.nombre} />
+                <img
+                    src={srcImg}
+                    className={item.centerRight ? "centerRight" : ""}
+                    alt={item.nombre}
+                />
                 {/* {item.nombre !== "" && <span>{item.nombre}</span>} */}
             </div>
+
             <MyVerticallyCenteredModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}

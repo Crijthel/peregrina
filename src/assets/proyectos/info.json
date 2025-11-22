@@ -4,29 +4,36 @@
             "gif": "",
             "proyectos": [
                 {
-                    "nombre": "",
+                    "nombre": "Robot Futurista",
+                    "descripcion": "Pieza ilustrativa.",
+                    "autora": "Areli Gomila",
                     "imagen": "/proyectos/ilustraciones/are.avif",
-                    "video": "",
-                    "stack": ["", ""]
+                    "stack": ["Illustrator"],
+                    "centerRight": true
                 },
                 {
-                    "nombre": "",
+                    "nombre": "Disney Infinity",
+                    "descripcion": "Pieza ilustrativa inspirada por el juego del mismo nombre.",
+                    "autora": "Camila Candal",
                     "imagen": "/proyectos/ilustraciones/cami.avif",
-                    "video": "",
-                    "stack": ["", ""]
+                    "stack": ["Illustrator"]
                 },
                 {
-                    "nombre": "",
+                    "nombre": "Baymax",
+                    "descripcion": "Pieza ilustrativa inspirada en Big Hero 6.",
+                    "autora": "Clara Abate",
                     "imagen": "/proyectos/ilustraciones/clari.avif",
-                    "video": "",
-                    "stack": ["", ""]
+                    "stack": ["Illustrator"],
+                    "centerRight": true
                 },
 
                 {
-                    "nombre": "",
+                    "nombre": "Robot Portal2",
+                    "descripcion": "Pieza ilustrativa inspirada por el juego Portal2.",
+                    "autora": "Guadalupe Novas",
                     "imagen": "/proyectos/ilustraciones/guadi.avif",
-                    "video": "",
-                    "stack": ["", ""]
+                    "stack": ["Illustrator"],
+                    "centerRight": true
                 }
             ]
         },
@@ -35,111 +42,147 @@
             "proyectos": [
                 {
                     "nombre": "Chico Buso Pintor",
+                    "descripcion": "Pieza inspirada en el océano.",
+                    "autora": "Guadalupe Novas",
                     "imagen": "proyectos/3d/chico-buso-pintor.png",
                     "video": "https://www.youtube.com/embed/rDM6TjKru2k?si=fCuqGWN2JH_QxIuy&loop=1&playlist=rDM6TjKru2k&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["Photoshop", "Blender"]
                 },
                 {
                     "nombre": "Robot Arelio",
+                    "descripcion": "Pieza inspirada en un robot del futuro.",
+                    "autora": "Areli Gomila",
                     "imagen": "proyectos/3d/secuencia_are.png",
                     "video": "https://www.youtube.com/embed/Svpt5k8X2j4?si=sXIbY8688woLuPJs&loop=1&playlist=Svpt5k8X2j4&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["Blender"]
                 },
                 {
                     "nombre": "Swicth",
+                    "descripcion": "Pieza inspirada en la Nintendo Switch.",
+                    "autora": "Renata Panzarella",
                     "imagen": "proyectos/3d/Swicth(3D)_00001.png",
                     "video": "https://www.youtube.com/embed/ihm8XULtq9Q?si=eB9GSEeeePb08kA0&loop=1&playlist=ihm8XULtq9Q&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["Blender"]
                 },
                 {
                     "nombre": "Trico",
+                    "descripcion": "Pieza inspirada en las gargolas.",
+                    "autora": "Guadalupe Novas",
                     "imagen": "proyectos/3d/trico(3D)_00000.png",
                     "video": "https://www.youtube.com/embed/qnL4DZ6MG5s?si=JLg93MPlQdoCkJ3-&loop=1&playlist=qnL4DZ6MG5s&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["ZBrush"]
                 },
                 {
-                    "nombre": "Tele",
+                    "nombre": "Computadora",
+                    "descripcion": "Pieza inspirada en Minecraft.",
+                    "autora": "Renata Panzarella",
                     "imagen": "proyectos/3d/Tele(3D)_00001.png",
                     "video": "https://www.youtube.com/embed/ycBDVZqJA4c?si=RDiJolcCTkDI8G4K&loop=1&playlist=ycBDVZqJA4c&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["Blender"]
                 },
                 {
                     "nombre": "Robot Juego",
+                    "descripcion": "Pieza sobre un robot abandonado jugando.",
+                    "autora": "Camila Candal",
                     "imagen": "proyectos/3d/robotjuego-video_00001.png",
                     "video": "https://www.youtube.com/embed/FQo-gxS-Nyw?si=1A7Dvp0gYyv6itq3&loop=1&playlist=FQo-gxS-Nyw&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["Blender"]
                 },
                 {
-                    "nombre": "Auto Fiat",
+                    "nombre": "Ford T",
+                    "descripcion": "Pieza inspirada en un auto de epoca.",
+                    "autora": "Camila Candal",
                     "imagen": "proyectos/3d/video_auto_00031.png",
                     "video": "https://www.youtube.com/embed/gS4ty11_27c?si=PmdwNEX_X4MXqUll&loop=1&playlist=gS4ty11_27c&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["3DMax"]
                 },
                 {
                     "nombre": "Robot Lechero",
+                    "descripcion": "Pieza inspirada en un futuro distópico.",
+                    "autora": "Camila Candal",
                     "imagen": "proyectos/3d/video_robotLechero_00000.png",
                     "video": "https://www.youtube.com/embed/2cSG0Ky8bA0?si=mQWGoHGyNnSZV6Rr&loop=1&playlist=2cSG0Ky8bA0&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["3DMax"]
                 },
                 {
-                    "nombre": "Robot",
+                    "nombre": "Robot Portal2",
+                    "descripcion": "Pieza inspirada por el juego Portal2.",
+                    "autora": "Clara Abate",
                     "imagen": "proyectos/3d/robot_futurista00000.png",
                     "video": "https://www.youtube.com/embed/knuGhnUcFHA?si=q1NhcEQqjcZTUaRZ&loop=1&playlist=knuGhnUcFHA&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["Blender"]
                 },
                 {
                     "nombre": "Reloj Cucú",
+                    "descripcion": "Pieza inspirada en lo relojes de madera.",
+                    "autora": "Areli Gomila",
                     "imagen": "proyectos/3d/reloj_00001.png",
                     "video": "https://www.youtube.com/embed/E6Iq0fGaKhc?si=e5R_L-rg0SvkG4zK&loop=1&playlist=E6Iq0fGaKhc&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["Blender"]
                 },
                 {
                     "nombre": "Pistola",
+                    "descripcion": "Pieza inspirada en un caso de misterio.",
+                    "autora": "Areli Gomila",
                     "imagen": "proyectos/3d/ArtStation_Are010009.png",
                     "video": "https://www.youtube.com/embed/iDl8HMnbYCk?si=5SH3yozuxMWRhhpV&loop=1&playlist=iDl8HMnbYCk&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["Blender"]
                 },
                 {
                     "nombre": "Restaurante futurista",
+                    "descripcion": "Pieza inspirada en como serían los restaurante en un futuro.",
+                    "autora": "Areli Gomila",
                     "imagen": "proyectos/3d/restaurante.png",
                     "video": "https://www.youtube.com/embed/JVhbW_4mkBM?si=Ruj7HWS0H1Ix2YLf&loop=1&playlist=JVhbW_4mkBM&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["Blender"]
                 },
                 {
                     "nombre": "Ice cream truck",
+                    "descripcion": "Pieza inspirada en la serie Heartstopper.",
+                    "autora": "Cristhel Francisco",
                     "imagen": "proyectos/3d/icecreamtruck_00001.png",
                     "video": "https://www.youtube.com/embed/ECsuGfIPb3k?si=V05G6mrW4IhQrQg4&loop=1&playlist=ECsuGfIPb3k&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["Blender"]
                 },
                 {
-                    "nombre": "Maquina",
+                    "nombre": "Heart Machine",
+                    "descripcion": "Pieza inspirada en las maquinas de garra.",
+                    "autora": "Valentina Moyano",
                     "imagen": "proyectos/3d/rendermaquina_frame_VAL.png",
                     "video": "https://www.youtube.com/embed/yOQe8VC1OnQ?si=yLPNxKj3jkJ0gdeI&loop=1&playlist=yOQe8VC1OnQ&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["Blender"]
                 },
                 {
-                    "nombre": "Heladerita",
+                    "nombre": "Cookie Fridge",
+                    "descripcion": "Pieza inspirada en un heladera de juguete.",
+                    "autora": "Valentina Moyano",
                     "imagen": "proyectos/3d/renderheladerita_frame_VAL.png",
                     "video": "https://www.youtube.com/embed/PgA2sDN0L0U?si=NiJ3arHqbJa7ECbm&loop=1&playlist=PgA2sDN0L0U&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["Blender"]
                 },
                 {
                     "nombre": "Robotito",
+                    "descripcion": "Pieza inspirada en un robot miniatura.",
+                    "autora": "Clara Abate",
                     "imagen": "proyectos/3d/Robotito_00000.png",
                     "video": "https://www.youtube.com/embed/-8G-Z7J1CBE?si=ORuCX6wKY3q9laRS&loop=1&playlist=-8G-Z7J1CBE&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["Blender", "Substance Painter", "RizomUV"]
                 },
                 {
                     "nombre": "Shinwo",
+                    "descripcion": "Pieza inspirada en los muñecos Shinwo.",
+                    "autora": "Cristhel Francisco",
                     "imagen": "proyectos/3d/Shinwoo_0094.png",
                     "video": "https://www.youtube.com/embed/kEw03ULeG5M?si=Y2K92UlXhYC_xeLF&loop=1&playlist=kEw03ULeG5M&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["Blender", "Substance Painter", "RizomUV"]
                 },
                 {
                     "nombre": "Toyplane",
+                    "descripcion": "Pieza inspirada en un juguete con estética futurista.",
+                    "autora": "Clara Abate",
                     "imagen": "proyectos/3d/toyplane.png",
                     "video": "https://www.youtube.com/embed/_w-zybgNMAs?si=Elj--uUmSu2zYmda&loop=1&playlist=_w-zybgNMAs&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["Blender", "Substance Painter", "RizomUV"]
                 }
             ]
         },
@@ -148,51 +191,67 @@
             "proyectos": [
                 {
                     "nombre": "The fate of Ophelia",
+                    "descripcion": "Pieza audiovisual que contiene parte de la canción de the fate of Ophelia de Taylor Swift.",
+                    "autora": "Valentina Moyano",
                     "imagen": "proyectos/motion/taylor-foo_motion_.png",
                     "video": "https://youtu.be/yRftOSu5Ycc",
-                    "stack": ["", ""]
+                    "stack": ["After Effects", "Illustrator"]
                 },
                 {
                     "nombre": "Ojo",
+                    "descripcion": "Pieza audiovisual con un concepto abstracto.",
+                    "autora": "Renata Panzarella",
                     "imagen": "proyectos/motion/motion_graphic_00093.png",
                     "video": "https://youtu.be/ASuGDThcGa8",
-                    "stack": ["", ""]
+                    "stack": ["After Effects", "Illustrator"]
                 },
                 {
                     "nombre": "Luciernagas",
+                    "descripcion": "Pieza audiovisual que habla sobre una app para relajar.",
+                    "autora": "Areli Gomila",
                     "imagen": "proyectos/motion/Luciernagas_00053.png",
                     "video": "https://youtu.be/NXoPa786cpM",
-                    "stack": ["", ""]
+                    "stack": ["After Effects", "Illustrator"]
                 },
                 {
-                    "nombre": "Tinder mitico",
+                    "nombre": "Tinder mítico",
+                    "descripcion": "Pieza audiovisual que muestra como seres sobrenaturales usan una app de citas.",
+                    "autora": "Cristhel Francisco",
                     "imagen": "proyectos/motion/Tinder_mitico_arreglo_00079.png",
                     "video": "https://youtu.be/VfwpKVXNaeo",
-                    "stack": ["", ""]
+                    "stack": ["After Effects", "Illustrator"]
                 },
                 {
-                    "nombre": "Perritos",
+                    "nombre": "Puppis",
+                    "descripcion": "Pieza audiovisual presentando la marca Puppis.",
+                    "autora": "Guadalupe Novas",
                     "imagen": "proyectos/motion/perritos_00037.png",
                     "video": "https://youtu.be/A7cQN0fofuw",
-                    "stack": ["", ""]
+                    "stack": ["After Effects", "Illustrator"]
                 },
                 {
                     "nombre": "ChatGpt",
+                    "descripcion": "Pieza audiovisual inspirada en la nueva herramienta de asistencia online.",
+                    "autora": "Renata Panzarella",
                     "imagen": "proyectos/motion/chatgpt_00278.png",
                     "video": "https://youtu.be/f4DbgLJhztY",
-                    "stack": ["", ""]
+                    "stack": ["After Effects", "Illustrator"]
                 },
                 {
                     "nombre": "Again",
+                    "descripcion": "Pieza audiovisual que hace una crítica hacia las adicciones.",
+                    "autora": "Renata Panzarella",
                     "imagen": "proyectos/motion/again_00193.png",
                     "video": "https://youtu.be/SxER1y3UJXA",
-                    "stack": ["", ""]
+                    "stack": ["After Effects", "Illustrator"]
                 },
                 {
                     "nombre": "Abasto",
+                    "descripcion": "Pieza audiovisual que habla sobre el Día de la niñez en el Shopping Abasto.",
+                    "autora": "Clara Abate",
                     "imagen": "proyectos/motion/15sMotionGraphicsAbasto_00072.png",
                     "video": "https://www.youtube.com/embed/kfLJnWxHvU8?si=ENnwBEnnwUdaUNbP&loop=1&playlist=kfLJnWxHvU8&autoplay=1",
-                    "stack": ["", ""]
+                    "stack": ["After Effects", "Illustrator"]
                 }
             ]
         },
@@ -201,33 +260,43 @@
             "proyectos": [
                 {
                     "nombre": "Zombies",
+                    "descripcion": "Efectos visuales, implementación de objetos 3d simulando una invación zombie.",
+                    "autora": "Areli Gomila",
                     "imagen": "/proyectos/vfx/ejemplo.jpg",
                     "video": "https://youtu.be/moyYZvR1BRs?si=kXnvYiFc6tEboNvp",
-                    "stack": ["", ""]
+                    "stack": ["After Effects", "Blender", "PfTrack"]
                 },
                 {
                     "nombre": "Harry Potter",
+                    "descripcion": "",
+                    "autora": "Camila Candal",
                     "imagen": "/proyectos/vfx/HarryPotter(VFX)_00113.png",
                     "video": "https://youtu.be/Hxe-eQjHzPs?si=GKBO8QtiudvK2GBg",
-                    "stack": ["", ""]
+                    "stack": ["After Effects", "Blender", "PfTrack"]
                 },
                 {
-                    "nombre": "Samurai",
+                    "nombre": "Hongo Samurai",
+                    "descripcion": "Vfx hecho con tal delicadeza que parece irreal.",
+                    "autora": "Camila Candal",
                     "imagen": "/proyectos/vfx/ejemplo4.jpg",
                     "video": "https://youtu.be/pmMJcfqSRjQ?si=1tb2bluhAfyGM7pn",
-                    "stack": ["", ""]
+                    "stack": ["After Effects", "Blender"]
                 },
                 {
                     "nombre": "Assassin's Creed",
+                    "descripcion": "Efectos visuales, implementación de objetos 3d en escenas reales.",
+                    "autora": "Areli Gomila",
                     "imagen": "/proyectos/vfx/ejemplo5.jpg",
                     "video": "https://youtu.be/IbdwBQ9Ewl4?si=iSpTLDKDeTputZhP",
-                    "stack": ["", ""]
+                    "stack": ["After Effects", "Blender", "PfTrack"]
                 },
                 {
-                    "nombre": "Castillo",
+                    "nombre": "Chess Master",
+                    "descripcion": "Efectos visuales, implementación de objetos 3d en escenas reales.",
+                    "autora": "Clara Abate",
                     "imagen": "/proyectos/vfx/castillo_portada.png",
                     "video": "https://youtu.be/gjURFQ75_8w?si=nt61s_Moo2BD9GQb",
-                    "stack": ["", ""]
+                    "stack": ["After Effects", "Blender", "PfTrack"]
                 }
             ]
         },
@@ -236,51 +305,67 @@
             "proyectos": [
                 {
                     "nombre": "hunter x hunter",
+                    "descripcion": "Poster inspirado en el anime hunter x hunter.",
+                    "autora": "Guadalupe Novas",
                     "imagen": "proyectos/tratamiento/hxh.png",
                     "video": "",
-                    "stack": ["", ""]
+                    "stack": ["Photoshop"]
                 },
                 {
                     "nombre": "Hobbit",
+                    "descripcion": "Poster inspirado en la pelicula El Hobbit.",
+                    "autora": "Guadalupe Novas",
                     "imagen": "proyectos/tratamiento/hobbit.png",
                     "video": "https://youtube.com/shorts/F7rZQccU5tQ",
-                    "stack": ["", ""]
+                    "stack": ["Photoshop"]
                 },
                 {
-                    "nombre": "Hunger Games",
+                    "nombre": "The Hunger Games",
+                    "descripcion": "Poster inspirado en la pelicula En llamas.",
+                    "autora": "Cristhel Francisco",
                     "imagen": "proyectos/tratamiento/Cristhel_Francisco.avif",
                     "video": "https://youtube.com/shorts/AH8cwh8FVqE",
-                    "stack": ["", ""]
+                    "stack": ["Photoshop"]
                 },
                 {
-                    "nombre": "VioletEvergarden",
+                    "nombre": "Violet Evergarden",
+                    "descripcion": "Poster inspirado en el anime Violet Evergarden.",
+                    "autora": "Camila Candal",
                     "imagen": "proyectos/tratamiento/photoshop_edited.avif",
                     "video": "https://youtube.com/shorts/rNVw7cSA4gg",
-                    "stack": ["", ""]
+                    "stack": ["Photoshop"]
                 },
                 {
                     "nombre": "Shutter Island",
+                    "descripcion": "Poster inspirado en la pelicula Shutter Island.",
+                    "autora": "Areli Gomila",
                     "imagen": "proyectos/tratamiento/areli_gomila_final.jpg",
                     "video": "https://youtube.com/shorts/3G54aVHYnss",
-                    "stack": ["", ""]
+                    "stack": ["Photoshop"]
                 },
                 {
                     "nombre": "Dark",
+                    "descripcion": "Poster inspirado de la serie Dark.",
+                    "autora": "Clara Abate",
                     "imagen": "proyectos/tratamiento/DarkIIiI.jpg",
                     "video": "https://youtube.com/shorts/PRiWT1I0q9I",
-                    "stack": ["", ""]
+                    "stack": ["Photoshop"]
                 },
                 {
                     "nombre": "Heartstopper",
+                    "descripcion": "Poster inspirado de la serie Heartstopper.",
+                    "autora": "Valentina Moyano",
                     "imagen": "proyectos/tratamiento/poster_heartstopper_valen.jpg",
                     "video": "https://youtube.com/shorts/6Je_qkjakAM",
-                    "stack": ["", ""]
+                    "stack": ["Photoshop"]
                 },
                 {
                     "nombre": "The Raven Cycle ",
+                    "descripcion": "Poster inspirado en los libros de The Raven Cycle.",
+                    "autora": "Valentina Moyano",
                     "imagen": "proyectos/tratamiento/raven.jpg",
                     "video": "https://youtube.com/shorts/6Je_qkjakAM",
-                    "stack": ["", ""]
+                    "stack": ["Photoshop"]
                 }
             ]
         }

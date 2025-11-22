@@ -20,17 +20,17 @@ const NavbarComp = () => {
                             <NavDropdown.Item href="/portafolio/tratamiento-de-imagenes">
                                 Tratamiento de imágenes
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="/portafolio/vfx">
-                                VFX
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="/portafolio/3d">
-                                3D
-                            </NavDropdown.Item>
                             <NavDropdown.Item href="/portafolio/motion-graphics">
                                 Motion graphics
                             </NavDropdown.Item>
                             <NavDropdown.Item href="/portafolio/ilustraciones">
                                 Ilustraciones
+                            </NavDropdown.Item>
+                            <NavDropdown.Item href="/portafolio/vfx">
+                                VFX
+                            </NavDropdown.Item>
+                            <NavDropdown.Item href="/portafolio/3d">
+                                3D
                             </NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="#contacto">Contacto</Nav.Link>
