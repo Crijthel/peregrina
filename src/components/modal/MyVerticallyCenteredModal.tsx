@@ -1,8 +1,71 @@
-import React from "react";
+import React, { JSX } from "react";
 import "./Modal.scss";
 import Modal from "react-bootstrap/Modal";
 
+import tresdmax from "../../assets/icons/3dsmax.webp";
+import aftereffects from "../../assets/icons/after-effects.svg";
+import blender from "../../assets/icons/blender.svg";
+import illustrator from "../../assets/icons/illustrator.svg";
+import PFTrack from "../../assets/icons/PFTrack.png";
+import photoshop from "../../assets/icons/photoshop.svg";
+import RizomUV from "../../assets/icons/RizomUV.png";
+import SubstancePainter from "../../assets/icons/SubstancePainter.webp";
+import zbrush from "../../assets/icons/zbrush.svg";
+import tentaculoIzquierda from "../../assets/proyectos/Tentaculo1.png";
+import tentaculoDerecha from "../../assets/proyectos/Tentaculo2.png";
+
 const MyVerticallyCenteredModal = (props: any) => {
+    const switchIcons = (elemento: string) => {
+        switch (elemento) {
+            case "3DMax":
+                return <img src={tresdmax} alt="3DMax" title="3DMax" />;
+            case "After Effects":
+                return (
+                    <img
+                        src={aftereffects}
+                        alt="After Effects"
+                        title="After Effects"
+                    />
+                );
+            case "Blender":
+                return <img src={blender} alt="Blender" title="Blender" />;
+            case "Illustrator":
+                return (
+                    <img
+                        src={illustrator}
+                        alt="Illustrator"
+                        title="Illustrator"
+                    />
+                );
+            case "PfTrack":
+                return <img src={PFTrack} alt="PfTrack" title="PfTrack" />;
+            case "photoshop":
+                return (
+                    <img src={photoshop} alt="photoshop" title="photoshop" />
+                );
+            case "RizomUV":
+                return <img src={RizomUV} alt="RizomUV" title="RizomUV" />;
+            case "Substance Painter":
+                return (
+                    <img
+                        src={SubstancePainter}
+                        alt="Substance Painter"
+                        title="Substance Painter"
+                    />
+                );
+            case "ZBrush":
+                return <img src={zbrush} alt="ZBrush" title="ZBrush" />;
+
+            default:
+                return <></>;
+        }
+    };
+
+    const handleIcons = (): JSX.Element => {
+        return props.item.stack.map((elemento: any) => {
+            return switchIcons(elemento);
+        });
+    };
     return (
         <Modal
             className="modaaaal"
@@ -17,7 +80,18 @@ const MyVerticallyCenteredModal = (props: any) => {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                hecho por {props.item.autora}
+                <img
+                    src={tentaculoIzquierda}
+                    alt="tentaculoIzquierda"
+                    title="After Effects"
+                    className="tentaculoIzquierda"
+                />
+                <img
+                    className="tentaculoDerecha"
+                    src={tentaculoDerecha}
+                    alt="tentaculoDerecha"
+                />
+                Hecho por {props.item.autora}
                 {props.item.video ? (
                     <iframe
                         className="video-modal"
@@ -39,11 +113,9 @@ const MyVerticallyCenteredModal = (props: any) => {
                     />
                 )}
                 <span>{props.item.descripcion}</span>
-                <span>Programas utilizados: </span>
-                <div>
-                    {props.item.stack.map((elemento: any) => {
-                        return <span>{elemento}</span>;
-                    })}
+                <div className="iconos-proyectos">
+                    <span>Programas utilizados: </span>
+                    {handleIcons()}
                 </div>
             </Modal.Body>
         </Modal>

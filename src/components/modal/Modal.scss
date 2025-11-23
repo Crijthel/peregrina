@@ -1,17 +1,51 @@
 .modaaaal {
 
+	font-family: "royal-ave";
+
+	.modal-header {
+		border-bottom: 0px !important;
+		padding-bottom: 0px !important;
+	}
+
 	.modal-body {
+		padding-top: 0px !important;
+
+		font-family: "komet";
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
 		align-items: center;
 		gap: 20px;
+		position: relative;
+
+		.tentaculoIzquierda {
+			position: absolute;
+			left: 0;
+			width: 100px;
+		}
+
+		.tentaculoDerecha {
+			width: 130px;
+			position: absolute;
+			right: 0;
+
+		}
 
 		.video-modal {}
 
 		.imagen-modal {
 			width: 50vw;
+		}
 
+		.iconos-proyectos {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+
+			img {
+				width: 30px;
+			}
 		}
 
 		.zoom {
@@ -24,13 +58,6 @@
 			/* Opera */
 		}
 
-		// .zoom:hover{
-		// 	transform : scale(4);
-		// 	-moz-transform : scale(4); /* Firefox */
-		// 	-webkit-transform : scale(4); /* Chrome - Safari */
-		// 	-o-transform : scale(4); /* Opera */
-		// 	-ms-transform : scale(4); /* IE9 */
-		// }
 	}
 
 }
