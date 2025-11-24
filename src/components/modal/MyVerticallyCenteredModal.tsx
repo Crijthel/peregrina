@@ -1,8 +1,8 @@
-import React, { JSX } from "react";
+import React, { JSX, useState } from "react";
 import "./Modal.scss";
 import Modal from "react-bootstrap/Modal";
-
 import tresdmax from "../../assets/icons/3dsmax.webp";
+import loading from "../../assets/loading.svg";
 import aftereffects from "../../assets/icons/after-effects.svg";
 import blender from "../../assets/icons/blender.svg";
 import illustrator from "../../assets/icons/illustrator.svg";
@@ -66,6 +66,13 @@ const MyVerticallyCenteredModal = (props: any) => {
             return switchIcons(elemento);
         });
     };
+
+    const [isLoading, setIsLoading] = useState(true);
+
+    // Función para manejar la carga del iframe
+    const handleIframeLoad = () => {
+        setIsLoading(false);
+    };
     return (
         <Modal
             className="modaaaal"
@@ -93,18 +100,28 @@ const MyVerticallyCenteredModal = (props: any) => {
                 />
                 Hecho por {props.item.autora}
                 {props.item.video ? (
-                    <iframe
-                        className="video-modal"
-                        loading="eager"
-                        width="560"
-                        height="315"
-                        src={props.item.video}
-                        title={props.item.nombre}
-                        allowTransparency
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerPolicy="strict-origin-when-cross-origin"
-                        allowFullScreen
-                    ></iframe>
+                    <div className="video-modal">
+                        {isLoading && (
+                            <img
+                                src={loading}
+                                className="loading"
+                                alt="loading"
+                            />
+                        )}
+                        <iframe
+                            loading="eager"
+                            width="560"
+                            height="315"
+                            src={props.item.video}
+                            title={props.item.nombre}
+                            allowTransparency
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            allowFullScreen
+                            onLoad={handleIframeLoad}
+                            style={{ display: isLoading ? "none" : "block" }}
+                        ></iframe>
+                    </div>
                 ) : (
                     <img
                         className="imagen-modal"

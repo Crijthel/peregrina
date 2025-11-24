@@ -9,7 +9,6 @@
 
 	.modal-body {
 		padding-top: 0px !important;
-
 		font-family: "komet";
 		display: flex;
 		justify-content: center;
@@ -28,10 +27,19 @@
 			width: 130px;
 			position: absolute;
 			right: 0;
-
 		}
 
-		.video-modal {}
+		.loading {
+			position: absolute;
+			top: 30%;
+			right: 45%;
+			width: 70px;
+		}
+
+		.video-modal {
+			width: 560px;
+			height: 315px;
+		}
 
 		.imagen-modal {
 			width: 50vw;
@@ -48,15 +56,7 @@
 			}
 		}
 
-		.zoom {
-			transition: 1.5s ease;
-			-moz-transition: 1.5s ease;
-			/* Firefox */
-			-webkit-transition: 1.5s ease;
-			/* Chrome - Safari */
-			-o-transition: 1.5s ease;
-			/* Opera */
-		}
+
 
 	}
 

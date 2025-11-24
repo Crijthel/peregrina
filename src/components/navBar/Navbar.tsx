@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo_texto_negro.png";
 import "./NavBar.scss";
-import { NavDropdown, Navbar, Nav, Container } from "react-bootstrap";
+import { NavDropdown, Navbar, Nav } from "react-bootstrap";
 
 const NavbarComp = () => {
     return (
