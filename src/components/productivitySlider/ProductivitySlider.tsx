@@ -3,8 +3,11 @@ import "./ProductivitySlider.scss"; // Asegúrate de que el CSS esté en este ar
 import tratamiento from "../../assets/proyectos/tratamiento/Guadalupe Novas - Final - Tratamiento 2.png";
 import tratamientoHover from "../../assets/proyectos/tratamiento/ilustraciones.gif";
 import tresd from "../../assets/proyectos/3d/video_auto_00031.png";
+import tresdHover from "../../assets/proyectos/3d/tresd.gif";
 import ilustraciones from "../../assets/proyectos/ilustraciones/cami.avif";
+import ilustracionesHover from "../../assets/proyectos/ilustraciones/ilustraciones.gif";
 import motion from "../../assets/proyectos/motion-g/15sMotionGraphicsAbasto_00072.png";
+import motionHover from "../../assets/proyectos/motion-g/motion.gif";
 import vfx from "../../assets/proyectos/vfx/ejemplo4.jpg";
 import vfxHover from "../../assets/proyectos/vfx/vfx.gif";
 import { Link } from "react-router";
@@ -21,14 +24,14 @@ const initialCardsData = [
         title: "Motion Graphics",
         desc: "Movimiento a elementos gráficos.",
         bgSrc: motion,
-        thumbSrc: motion,
+        thumbSrc: motionHover,
         link: "motion-graphics",
     },
     {
         title: "Ilustraciones",
         desc: "Hechos con todo tipo de herramientas digitales y dispositivos electrónicos.",
         bgSrc: ilustraciones,
-        thumbSrc: ilustraciones,
+        thumbSrc: ilustracionesHover,
         link: "ilustraciones",
     },
     {
@@ -42,7 +45,7 @@ const initialCardsData = [
         title: "3D",
         desc: "¿Por qué quedarse en 2D?",
         bgSrc: tresd,
-        thumbSrc: tresd,
+        thumbSrc: tresdHover,
         link: "3d",
     },
 ];

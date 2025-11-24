@@ -11,28 +11,46 @@ const NavbarComp = () => {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto">
+                <Nav className="me-auto ">
                     <NavDropdown
+                        className="estilo-portafolio"
                         title="Portafolio"
                         id="navbarScrollingDropdown"
                     >
-                        <NavDropdown.Item href="/portafolio/tratamiento-de-imagenes">
+                        <NavDropdown.Item
+                            className="estilo-link"
+                            href="/portafolio/tratamiento-de-imagenes"
+                        >
                             Tratamiento de imágenes
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="/portafolio/motion-graphics">
+                        <NavDropdown.Item
+                            className="estilo-link"
+                            href="/portafolio/motion-graphics"
+                        >
                             Motion graphics
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="/portafolio/ilustraciones">
+                        <NavDropdown.Item
+                            className="estilo-link"
+                            href="/portafolio/ilustraciones"
+                        >
                             Ilustraciones
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="/portafolio/vfx">
+                        <NavDropdown.Item
+                            className="estilo-link"
+                            href="/portafolio/vfx"
+                        >
                             VFX
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="/portafolio/3d">
+                        <NavDropdown.Item
+                            className="estilo-link"
+                            href="/portafolio/3d"
+                        >
                             3D
                         </NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="#contacto">Contacto</Nav.Link>
+                    <Nav.Link href="#contacto" className="contacto estilo-link">
+                        Contacto
+                    </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

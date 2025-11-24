@@ -1,55 +1,54 @@
 @import "../../variables.scss";
 
 .navbar-container {
+    a {
+        text-align: center;
+    }
+
     font-family: 'royal-ave';
     color: $negro !important;
-    // background: #ffffff00;
-    //background: linear-gradient(90deg, rgba(161, 205, 173, 1) 0%, rgba(167, 191, 195, 1) 100%);
     background: #ffffff;
     background: linear-gradient(360deg, rgba(255, 255, 255, 0) 10%, rgba(167, 191, 195, 1) 100%);
     position: absolute !important;
     top: 0;
     width: 100% !important;
-    height: 113px;
 
     .logo {
         width: 200px !important;
+        margin-left: 30px;
     }
 
-    .container {
-        margin-left: 15px;
 
-    }
-
-    a,
-    .link {
-        color: $negro;
+    .estilo-link,
+    .estilo-portafolio>a {
+        color: $negro !important;
         padding: 10px;
         border-radius: 30px !important;
         border: 1px solid rgba(0, 0, 0, 0) !important;
+
     }
 
-    a:hover,
-    .link:hover {
+    .estilo-link:hover,
+    .estilo-portafolio>a:hover {
         background-color: $azul-claro !important;
-        //color: $negro !important;
+        color: $negro !important;
         border-radius: 30px !important;
         border: 1px solid rgb(0, 0, 0) !important;
     }
 
+
+
     .dropdown-menu {
-        //  background: #fafafa;
-        //   background: linear-gradient(circle, rgba(255, 255, 255, 0) 10%, rgba(167, 191, 195, 1) 100%);
         background-color: rgba(167, 191, 195, 0.411);
         padding: 10px;
 
-        a:hover {
-            background-color: rgba(167, 191, 195, 1) !important;
-            color: $negro !important;
-            border-radius: 30px;
-        }
-
     }
+
+    .contacto {
+        margin-left: 10px;
+    }
+
+
 
     @media (max-width: 992px) {
         //tablets
@@ -70,25 +69,48 @@
 
         .navbar-toggler {
             border: 1px solid black;
-            margin-right: 15px !important;
+            margin-right: 30px !important;
         }
 
-        .navbar-container {
-            background-color: blue;
-
-        }
 
         //TODO PASAR A LA DERECHA
-        .navbar-collapse {
-            justify-content: end !important;
-            align-items: center !important;
+        #basic-navbar-nav {
+            margin-left: 70vw;
+
+        }
+
+        .contacto {
+            margin-left: 0;
+        }
+
+        .dropdown-menu {
+            //  background: #fafafa;
+            //   background: linear-gradient(circle, rgba(255, 255, 255, 0) 10%, rgba(167, 191, 195, 1) 100%);
+            background-color: rgba(167, 191, 195, 0);
+            border: 0 solid rgba(0, 0, 255, 0);
+            padding: 10px;
+            margin-left: -40px;
+
+        }
+
+    }
+
+    @media (max-width: 800px) {
+        #basic-navbar-nav {
+            margin-left: 60vw;
         }
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 700px) {
+        #basic-navbar-nav {
+            margin-left: 55vw;
+        }
+    }
 
-        //cel
-
+    @media (max-width: 400px) {
+        #basic-navbar-nav {
+            margin-left: 40vw;
+        }
     }
 
 }
