@@ -21,24 +21,84 @@
 
     }
 
-    a,.link {
+    a,
+    .link {
         color: $negro;
+        padding: 10px;
+        border-radius: 30px !important;
+        border: 1px solid rgba(0, 0, 0, 0) !important;
     }
 
-    a:hover ,.link:hover{
-        color: #ffffff !important;
+    a:hover,
+    .link:hover {
+        background-color: $azul-claro !important;
+        //color: $negro !important;
+        border-radius: 30px !important;
+        border: 1px solid rgb(0, 0, 0) !important;
+    }
+
+    .dropdown-menu {
+        //  background: #fafafa;
+        //   background: linear-gradient(circle, rgba(255, 255, 255, 0) 10%, rgba(167, 191, 195, 1) 100%);
+        background-color: rgba(167, 191, 195, 0.411);
+        padding: 10px;
+
+        a:hover {
+            background-color: rgba(167, 191, 195, 1) !important;
+            color: $negro !important;
+            border-radius: 30px;
+        }
 
     }
-    .dropdown-menu{
-      //  background: #fafafa;
-     //   background: linear-gradient(circle, rgba(255, 255, 255, 0) 10%, rgba(167, 191, 195, 1) 100%);
-       background-color: rgba(167, 191, 195, 0.411) ;
 
-          a:hover {
-           background-color: rgba(167, 191, 195, 1) !important;
-           color: $negro !important;
+    @media (max-width: 992px) {
+        //tablets
+
+        //hamburguesa
+        .navbar-nav {
+
+            a {
+                background-color: $azul-claro !important;
+                color: $negro !important;
+                border-radius: 30px !important;
+                border: 1px solid rgb(0, 0, 0) !important;
+                width: 200px;
+                margin-bottom: 5px;
+            }
+
+        }
+
+        .navbar-toggler {
+            border: 1px solid black;
+            margin-right: 15px !important;
+        }
+
+        .navbar-container {
+            background-color: blue;
+
+        }
+
+        //TODO PASAR A LA DERECHA
+        .navbar-collapse {
+            justify-content: end !important;
+            align-items: center !important;
+        }
+    }
+
+    @media (max-width: 600px) {
+
+        //cel
+
+    }
+
 }
-        
-    }
+
+@media (max-width: 992px) {
+    //tablets
+
+}
+
+@media (max-width: 600px) {
+    //cel
 
 }

@@ -9,18 +9,17 @@ import vfx from "../../assets/proyectos/vfx/ejemplo4.jpg";
 import vfxHover from "../../assets/proyectos/vfx/vfx.gif";
 import { Link } from "react-router";
 
-// Datos para las tarjetas, extraídos del HTML
 const initialCardsData = [
     {
         title: "Tratamiento de imágenes",
-        desc: "mejorar su calidad visual o adaptarlas a necesidades específicas",
+        desc: "Mejorar su calidad visual o adaptarlas a necesidades específicas.",
         bgSrc: tratamiento,
         thumbSrc: tratamientoHover,
         link: "tratamiento-de-imagenes",
     },
     {
         title: "Motion Graphics",
-        desc: " movimiento a elementos gráficos.",
+        desc: "Movimiento a elementos gráficos.",
         bgSrc: motion,
         thumbSrc: motion,
         link: "motion-graphics",
@@ -34,7 +33,7 @@ const initialCardsData = [
     },
     {
         title: "VFX",
-        desc: "Efectos especiales personalizados a tu necesidad",
+        desc: "Efectos especiales personalizados a tu necesidad.",
         bgSrc: vfx,
         thumbSrc: vfxHover,
         link: "vfx",
@@ -151,31 +150,6 @@ const ProductivitySlider = () => {
 
     return (
         <section>
-            <div className="head">
-                <h2>Boost your professional workflow and productivity</h2>
-
-                <div className="controls">
-                    <button
-                        id="prev"
-                        className="nav-btn"
-                        aria-label="Prev"
-                        onClick={() => go(-1)}
-                        disabled={current === 0}
-                    >
-                        &lsaquo;
-                    </button>
-                    <button
-                        id="next"
-                        className="nav-btn"
-                        aria-label="Next"
-                        onClick={() => go(1)}
-                        disabled={current === cardsLength - 1}
-                    >
-                        &rsaquo;
-                    </button>
-                </div>
-            </div>
-
             <div className="slider" ref={wrapRef}>
                 <div className="track" id="track" ref={trackRef}>
                     {initialCardsData.map((card, index) => (

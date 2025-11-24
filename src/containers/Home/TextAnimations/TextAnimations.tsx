@@ -1,5 +1,5 @@
 import "./TextAnimations.scss";
-import fondo from "../../../assets/fondo/FondoHome3.png";
+import fondo from "../../../assets/fondo/FondoHome3cortado.png";
 import React from "react";
 import { useCenterObserver } from "../../../hooks/useCenterObserver";
 

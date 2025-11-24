@@ -3,8 +3,8 @@
 .text-a-container {
     width: 100%;
     position: relative;
-    margin-top: -450px;
-    height: 450vh;
+    margin-top: -100px;
+    height: 375vh;
     font-family: $komet;
 
     .fondo {
@@ -14,13 +14,14 @@
     }
 
     .espacio {
-        padding-top: 500px;
+        padding-top: 400px;
     }
 
     .texto {
         font-size: $titulo-size;
         color: #fff;
         font-weight: 600;
+        text-shadow: 5px 5px 10px black;
     }
 
     .textos-container {
@@ -29,7 +30,10 @@
         justify-content: center;
         flex-direction: column;
         width: 100%;
-        gap: 100vh;
+        //margin-top: 50vh;
+        gap: 60vh;
+
+        //background-color: blue;
 
         .split-text-container {
             display: flex;
