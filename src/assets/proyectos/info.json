@@ -194,7 +194,9 @@
                     "descripcion": "Pieza audiovisual que contiene parte de la canción de the fate of Ophelia de Taylor Swift.",
                     "autora": "Valentina Moyano",
                     "imagen": "proyectos/motion/taylor-foo_motion_.png",
-                    "video": "https://youtu.be/yRftOSu5Ycc",
+                    "viddeo": "https://www.youtube.com/embed/gS4ty11_27c?si=PmdwNEX_X4MXqUll&loop=1&playlist=gS4ty11_27c&autoplay=1",
+
+                    "video": "https://www.youtube.com/embed/yRftOSu5Ycc?si=z_YleoKhzQ_e_yx6&loop=1&playlist=yRftOSu5Ycc&autoplay=1",
                     "stack": ["After Effects", "Illustrator"]
                 },
                 {
@@ -202,7 +204,7 @@
                     "descripcion": "Pieza audiovisual con un concepto abstracto.",
                     "autora": "Renata Panzarella",
                     "imagen": "proyectos/motion/motion_graphic_00093.png",
-                    "video": "https://youtu.be/ASuGDThcGa8",
+                    "video": "https://www.youtube.com/embed/ASuGDThcGa8?si=txr-WAHNIkrRjIBP&loop=1&playlist=ASuGDThcGa8&autoplay=1",
                     "stack": ["After Effects", "Illustrator"]
                 },
                 {
@@ -210,7 +212,7 @@
                     "descripcion": "Pieza audiovisual que habla sobre una app para relajar.",
                     "autora": "Areli Gomila",
                     "imagen": "proyectos/motion/Luciernagas_00053.png",
-                    "video": "https://youtu.be/NXoPa786cpM",
+                    "video": "https://www.youtube.com/embed/NXoPa786cpM?si=Oy-v1x4er62fA283&loop=1&playlist=NXoPa786cpM&autoplay=1",
                     "stack": ["After Effects", "Illustrator"]
                 },
                 {
@@ -218,7 +220,7 @@
                     "descripcion": "Pieza audiovisual que muestra como seres sobrenaturales usan una app de citas.",
                     "autora": "Cristhel Francisco",
                     "imagen": "proyectos/motion/Tinder_mitico_arreglo_00079.png",
-                    "video": "https://youtu.be/VfwpKVXNaeo",
+                    "video": "https://www.youtube.com/embed/VfwpKVXNaeo?si=zuMNYiBMx9rz-a9g&loop=1&playlist=VfwpKVXNaeo&autoplay=1",
                     "stack": ["After Effects", "Illustrator"]
                 },
                 {
@@ -226,7 +228,7 @@
                     "descripcion": "Pieza audiovisual presentando la marca Puppis.",
                     "autora": "Guadalupe Novas",
                     "imagen": "proyectos/motion/perritos_00037.png",
-                    "video": "https://youtu.be/A7cQN0fofuw",
+                    "video": "https://www.youtube.com/embed/A7cQN0fofuw?si=Uv9hBX8CSV2TWi8S&loop=1&playlist=A7cQN0fofuw&autoplay=1",
                     "stack": ["After Effects", "Illustrator"]
                 },
                 {
@@ -234,7 +236,7 @@
                     "descripcion": "Pieza audiovisual inspirada en la nueva herramienta de asistencia online.",
                     "autora": "Renata Panzarella",
                     "imagen": "proyectos/motion/chatgpt_00278.png",
-                    "video": "https://youtu.be/f4DbgLJhztY",
+                    "video": "https://www.youtube.com/embed/f4DbgLJhztY?si=cfcUCFJl63618ACO&loop=1&playlist=f4DbgLJhztY&autoplay=1",
                     "stack": ["After Effects", "Illustrator"]
                 },
                 {
@@ -242,7 +244,7 @@
                     "descripcion": "Pieza audiovisual que hace una crítica hacia las adicciones.",
                     "autora": "Renata Panzarella",
                     "imagen": "proyectos/motion/again_00193.png",
-                    "video": "https://youtu.be/SxER1y3UJXA",
+                    "video": "https://www.youtube.com/embed/SxER1y3UJXA?si=7gc7BdTWflUwzerS&loop=1&playlist=SxER1y3UJXA&autoplay=1",
                     "stack": ["After Effects", "Illustrator"]
                 },
                 {
@@ -263,7 +265,8 @@
                     "descripcion": "Efectos visuales, implementación de objetos 3d simulando una invación zombie.",
                     "autora": "Areli Gomila",
                     "imagen": "/proyectos/vfx/ejemplo.jpg",
-                    "video": "https://youtu.be/moyYZvR1BRs?si=kXnvYiFc6tEboNvp",
+
+                    "video": "https://www.youtube.com/embed/moyYZvR1BRs?si=kXnvYiFc6tEboNvp&loop=1&playlist=moyYZvR1BRs&autoplay=1",
                     "stack": ["After Effects", "Blender", "PfTrack"]
                 },
                 {
@@ -271,7 +274,7 @@
                     "descripcion": "Pieza inspirada en las películas de Harry Potter",
                     "autora": "Camila Candal",
                     "imagen": "/proyectos/vfx/HarryPotter(VFX)_00113.png",
-                    "video": "https://youtu.be/Hxe-eQjHzPs?si=GKBO8QtiudvK2GBg",
+                    "video": "https://www.youtube.com/embed/Hxe-eQjHzPs?si=GKBO8QtiudvK2GBg&loop=1&playlist=Hxe-eQjHzPs&autoplay=1",
                     "stack": ["After Effects", "Blender", "PfTrack"]
                 },
                 {
@@ -279,7 +282,7 @@
                     "descripcion": "Vfx hecho con tal delicadeza que parece irreal.",
                     "autora": "Camila Candal",
                     "imagen": "/proyectos/vfx/ejemplo4.jpg",
-                    "video": "https://youtu.be/pmMJcfqSRjQ?si=1tb2bluhAfyGM7pn",
+                    "video": "https://www.youtube.com/embed/pmMJcfqSRjQ?si=1tb2bluhAfyGM7pn&loop=1&playlist=pmMJcfqSRjQ&autoplay=1",
                     "stack": ["After Effects", "Blender"]
                 },
                 {
@@ -287,7 +290,7 @@
                     "descripcion": "Efectos visuales, implementación de objetos 3d en escenas reales.",
                     "autora": "Areli Gomila",
                     "imagen": "/proyectos/vfx/ejemplo5.jpg",
-                    "video": "https://youtu.be/IbdwBQ9Ewl4?si=iSpTLDKDeTputZhP",
+                    "video": "https://www.youtube.com/embed/IbdwBQ9Ewl4?si=iSpTLDKDeTputZhP&loop=1&playlist=IbdwBQ9Ewl4&autoplay=1",
                     "stack": ["After Effects", "Blender", "PfTrack"]
                 },
                 {
@@ -295,7 +298,7 @@
                     "descripcion": "Efectos visuales, implementación de objetos 3d en escenas reales.",
                     "autora": "Clara Abate",
                     "imagen": "/proyectos/vfx/castillo_portada.png",
-                    "video": "https://youtu.be/gjURFQ75_8w?si=nt61s_Moo2BD9GQb",
+                    "video": "https://www.youtube.com/embed/gjURFQ75_8w?si=nt61s_Moo2BD9GQb&loop=1&playlist=gjURFQ75_8w&autoplay=1",
                     "stack": ["After Effects", "Blender", "PfTrack"]
                 }
             ]
@@ -307,8 +310,8 @@
                     "nombre": "hunter x hunter",
                     "descripcion": "Poster inspirado en el anime hunter x hunter.",
                     "autora": "Guadalupe Novas",
-                    "imagen": "proyectos/tratamiento/hxh.png",
-                    "video": "",
+                    "imagen": "/proyectos/tratamiento/hxh.png",
+                    "verticalImage": true,
                     "stack": ["Photoshop"]
                 },
                 {
@@ -316,7 +319,7 @@
                     "descripcion": "Poster inspirado en la pelicula El Hobbit.",
                     "autora": "Guadalupe Novas",
                     "imagen": "proyectos/tratamiento/hobbit.png",
-                    "video": "https://youtube.com/shorts/F7rZQccU5tQ",
+                    "video": "https://www.youtube.com/embed/F7rZQccU5tQ?si=c1ueKk_icFCn1C9M&loop=1&playlist=F7rZQccU5tQ&autoplay=1",
                     "stack": ["Photoshop"]
                 },
                 {
@@ -324,7 +327,7 @@
                     "descripcion": "Poster inspirado en la pelicula En llamas.",
                     "autora": "Cristhel Francisco",
                     "imagen": "proyectos/tratamiento/Cristhel_Francisco.avif",
-                    "video": "https://youtube.com/shorts/AH8cwh8FVqE",
+                    "video": "https://www.youtube.com/embed/AH8cwh8FVqE?si=xxhWIpQ152JopzIF&loop=1&playlist=AH8cwh8FVqE&autoplay=1",
                     "stack": ["Photoshop"]
                 },
                 {
@@ -332,7 +335,7 @@
                     "descripcion": "Poster inspirado en el anime Violet Evergarden.",
                     "autora": "Camila Candal",
                     "imagen": "proyectos/tratamiento/photoshop_edited.avif",
-                    "video": "https://youtube.com/shorts/rNVw7cSA4gg",
+                    "video": "https://www.youtube.com/embed/rNVw7cSA4gg?si=nhlLDIJyo4hxPivg&loop=1&playlist=rNVw7cSA4gg&autoplay=1",
                     "stack": ["Photoshop"]
                 },
                 {
@@ -340,7 +343,7 @@
                     "descripcion": "Poster inspirado en la pelicula Shutter Island.",
                     "autora": "Areli Gomila",
                     "imagen": "proyectos/tratamiento/areli_gomila_final.jpg",
-                    "video": "https://youtube.com/shorts/3G54aVHYnss",
+                    "video": "https://www.youtube.com/embed/3G54aVHYnss?si=ZQs6ffKQTlAUjB6X&loop=1&playlist=3G54aVHYnss&autoplay=1",
                     "stack": ["Photoshop"]
                 },
                 {
@@ -348,7 +351,7 @@
                     "descripcion": "Poster inspirado de la serie Dark.",
                     "autora": "Clara Abate",
                     "imagen": "proyectos/tratamiento/DarkIIiI.jpg",
-                    "video": "https://youtube.com/shorts/PRiWT1I0q9I",
+                    "video": "https://www.youtube.com/embed/PRiWT1I0q9I?si=IfX71_vGseyx9ciN&loop=1&playlist=PRiWT1I0q9I&autoplay=1",
                     "stack": ["Photoshop"]
                 },
                 {
@@ -356,7 +359,7 @@
                     "descripcion": "Poster inspirado de la serie Heartstopper.",
                     "autora": "Valentina Moyano",
                     "imagen": "proyectos/tratamiento/poster_heartstopper_valen.jpg",
-                    "video": "https://youtube.com/shorts/6Je_qkjakAM",
+                    "video": "https://www.youtube.com/embed/6Je_qkjakAM?si=n42xkGDINadvGhdE&loop=1&playlist=6Je_qkjakAM&autoplay=1",
                     "stack": ["Photoshop"]
                 },
                 {
@@ -364,7 +367,7 @@
                     "descripcion": "Poster inspirado en los libros de The Raven Cycle.",
                     "autora": "Valentina Moyano",
                     "imagen": "proyectos/tratamiento/raven.jpg",
-                    "video": "https://youtube.com/shorts/6Je_qkjakAM",
+                    "video": "https://www.youtube.com/embed/gs47xMcKyaM?si=gatqx_W0B25sf2aD&loop=1&playlist=gs47xMcKyaM&autoplay=1",
                     "stack": ["Photoshop"]
                 }
             ]

@@ -14,7 +14,7 @@ import zbrush from "../../assets/icons/zbrush.svg";
 import tentaculoIzquierda from "../../assets/proyectos/Tentaculo1.png";
 import tentaculoDerecha from "../../assets/proyectos/Tentaculo2.png";
 
-const MyVerticallyCenteredModal = (props: any) => {
+const MyModal = (props: any) => {
     const switchIcons = (elemento: string) => {
         switch (elemento) {
             case "3DMax":
@@ -39,7 +39,7 @@ const MyVerticallyCenteredModal = (props: any) => {
                 );
             case "PfTrack":
                 return <img src={PFTrack} alt="PfTrack" title="PfTrack" />;
-            case "photoshop":
+            case "Photoshop":
                 return (
                     <img src={photoshop} alt="photoshop" title="photoshop" />
                 );
@@ -70,6 +70,7 @@ const MyVerticallyCenteredModal = (props: any) => {
     const [isLoading, setIsLoading] = useState(true);
 
     const handleIframeLoad = () => {
+        console.log("dsafsd")
         setIsLoading(false);
     };
     return (
@@ -103,7 +104,7 @@ const MyVerticallyCenteredModal = (props: any) => {
                         {isLoading && (
                             <img
                                 src={loading}
-                                className="loading"
+                                className="loading "
                                 alt="loading"
                             />
                         )}
@@ -121,13 +122,18 @@ const MyVerticallyCenteredModal = (props: any) => {
                     </div>
                 ) : (
                     <img
-                        className="imagen-modal"
+                        className={
+                            props.item.verticalImage
+                                ? "imagen-modal verticalImage"
+                                : "imagen-modal"
+                        }
                         src={props.item.imagen}
                         alt={props.item.nombre}
                     />
                 )}
                 <span className="desc">{props.item.descripcion}</span>
-                <div className="iconos-proyectos">
+                <div
+                    className="iconos-proyectos">
                     <span>Programas utilizados: </span>
                     <div>{handleIcons()}</div>
                 </div>
@@ -136,4 +142,4 @@ const MyVerticallyCenteredModal = (props: any) => {
     );
 };
 
-export default MyVerticallyCenteredModal;
+export default MyModal;

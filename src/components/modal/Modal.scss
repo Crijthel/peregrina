@@ -48,19 +48,33 @@
 		}
 
 		.imagen-modal {
-			width: 50vw;
+			width: 70%;
+			z-index: 2;
+			border-radius: 10px;
 		}
 
+		.verticalImage {
+			height: 350px !important;
+			object-fit: contain;
+		}
+		
 		.iconos-proyectos {
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			gap: 10px;
 
+			div {
+				display: flex;
+				gap: 10px;
+
+			}
+
 			img {
 				width: 30px;
 			}
 		}
+
 
 	}
 

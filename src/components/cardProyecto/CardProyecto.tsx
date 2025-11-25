@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./CardProyecto.scss";
-import MyVerticallyCenteredModal from "../modal/MyVerticallyCenteredModal";
+import MyModal from "../modal/MyModal";
 
 const CardProyecto = ({ item }: any) => {
     const [modalShow, setModalShow] = useState(false);
     const srcImg = item.imagen !== "" ? "../../../" + item.imagen : "";
- 
+
     return (
         <>
             <div
@@ -20,7 +20,7 @@ const CardProyecto = ({ item }: any) => {
                 {/* {item.nombre !== "" && <span>{item.nombre}</span>} */}
             </div>
 
-            <MyVerticallyCenteredModal
+            <MyModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
                 item={item}
