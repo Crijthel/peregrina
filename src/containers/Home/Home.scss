@@ -2,12 +2,31 @@
 
 .container-home {
     width: 100%;
-    background-size: cover;
-    height: 173vh;
+    height: 100vh;
     position: relative;
 
     .bosque {
+        height: 100%;
         width: 100%;
+        object-fit: cover !important;
+        object-position: 100% 100%;
     }
+}
+
+
+
+@media (min-width: 1300px) {
+
+    .container-home {
+
+        height: 140vh;
+        position: relative;
+
+        .bosque {
+            object-fit: cover !important;
+
+        }
+    }
+
 
 }

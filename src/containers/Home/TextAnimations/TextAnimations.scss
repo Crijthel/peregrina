@@ -3,14 +3,18 @@
 .text-a-container {
     width: 100%;
     position: relative;
-    margin-top: -100px;
-    height: 375vh;
+    margin-top: -130px;
+    height: 330vh;
     font-family: $komet;
 
     .fondo {
         position: absolute;
         width: 100%;
+        height: 100%;
         z-index: -2;
+        object-fit: cover !important;
+        object-position: 100% 100%;
+
     }
 
     .espacio {
@@ -64,7 +68,7 @@
             align-items: end;
 
             .left {
-                margin-right: 20%;
+                margin-right: 30%;
                 // animation-name: slide-in-right-dos;
             }
         }
@@ -108,6 +112,105 @@
             opacity: 1;
             transform: translateX(0);
         }
+    }
+
+}
+
+
+
+@media (min-width: 100px) and (max-width: 900px) {
+    .text-a-container {
+        height: 200vh !important;
+
+        //margin-top: -130px;
+        .espacio {
+            padding-top: 200px !important;
+        }
+    }
+
+    .textos-container {
+        gap: 40vh !important;
+    }
+
+    .texto {
+        font-size: 38px !important;
+    }
+
+}
+
+
+@media (min-width: 900px) and (max-width: 1300) {
+    .text-a-container {
+        height: 300vh;
+    }
+
+    .textos-container {
+        gap: 75vh !important;
+        //  background-color: blue;
+    }
+
+    .dos {
+        .left {
+            margin-right: 20% !important;
+        }
+    }
+}
+
+
+@media (min-width: 900px) and (max-width: 1200) {
+    .text-a-container {
+        height: 290vh;
+    }
+
+    .textos-container {
+        gap: 65vh !important;
+        //  background-color: blue;
+    }
+
+    .dos {
+        .left {
+            margin-right: 20% !important;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .text-a-container {
+        height: 280vh;
+    }
+
+    .textos-container {
+        gap: 65vh !important;
+        //  background-color: blue;
+    }
+
+}
+
+@media (min-width: 1500px) {
+
+    .dos {
+        .left {
+            margin-right: 20% !important;
+        }
+    }
+
+}
+
+
+
+@media (min-width: 1800px) {
+
+    .text-a-container {
+
+        margin-top: -200px;
+
+        height: 250vh;
+    }
+
+    .textos-container {
+        gap: 40vh !important;
+        //  background-color: blue;
     }
 
 }

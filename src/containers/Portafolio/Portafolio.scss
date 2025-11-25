@@ -1,17 +1,24 @@
+@import "../../variables.scss";
+
 .portafolio-container {
+   background-color: $fondo-portafolio;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   // background-size: 100% 100%;
-   // background-position: 0px 0px;
-   // background-image: repeating-radial-gradient(75% 75% at 50% 50%, #F179A3 0%, #71C4FFFF 100%);
+
 
    h1 {
-      //background-color: red;
       font-family: "royal-ave";
       text-align: center;
       margin-top: 120px;
       margin-bottom: 20px;
+      font-size: 50px !important;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+   h1 {
+        margin-bottom: 0;
    }
 }

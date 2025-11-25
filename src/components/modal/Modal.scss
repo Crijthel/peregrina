@@ -1,4 +1,4 @@
-.modaaaal {
+.my-modal {
 
 	font-family: "royal-ave";
 
@@ -41,6 +41,12 @@
 			height: 315px;
 		}
 
+		iframe {
+			width: 100%;
+			height: 100%;
+			border-radius: 10px;
+		}
+
 		.imagen-modal {
 			width: 50vw;
 		}
@@ -56,8 +62,74 @@
 			}
 		}
 
+	}
 
+	span {
+		text-align: center;
+	}
+
+	.desc {
+		width: 90%;
+
+	}
+}
+
+@media (max-width: 991px) {
+	.modal-body {
+		.video-modal {
+			width: 442px !important;
+			height: 261px !important;
+			z-index: 2;
+		}
+
+		span {
+			z-index: 2;
+
+		}
+	}
+}
+
+@media (max-width: 575px) {
+	.modal-body {
+		gap: 0 !important;
+		;
+
+		.desc {
+			margin-top: 10px;
+
+		}
+
+		.video-modal {
+			width: 320px !important;
+			height: 261px !important;
+
+		}
+
+	}
+}
+
+@media (max-width: 425px) {
+	.modal-body {
+		.video-modal {
+			width: 250px !important;
+			height: 261px !important;
+			z-index: 2;
+		}
 
 	}
 
+	.iconos-proyectos {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: 10px;
+
+		div {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 10px
+		}
+	}
 }

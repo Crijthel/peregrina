@@ -69,13 +69,12 @@ const MyVerticallyCenteredModal = (props: any) => {
 
     const [isLoading, setIsLoading] = useState(true);
 
-    // Función para manejar la carga del iframe
     const handleIframeLoad = () => {
         setIsLoading(false);
     };
     return (
         <Modal
-            className="modaaaal"
+            className="my-modal"
             {...props}
             size="lg"
             aria-labelledby="contained-modal-title-vcenter"
@@ -110,8 +109,6 @@ const MyVerticallyCenteredModal = (props: any) => {
                         )}
                         <iframe
                             loading="eager"
-                            width="560"
-                            height="315"
                             src={props.item.video}
                             title={props.item.nombre}
                             allowTransparency
@@ -129,10 +126,10 @@ const MyVerticallyCenteredModal = (props: any) => {
                         alt={props.item.nombre}
                     />
                 )}
-                <span>{props.item.descripcion}</span>
+                <span className="desc">{props.item.descripcion}</span>
                 <div className="iconos-proyectos">
                     <span>Programas utilizados: </span>
-                    {handleIcons()}
+                    <div>{handleIcons()}</div>
                 </div>
             </Modal.Body>
         </Modal>

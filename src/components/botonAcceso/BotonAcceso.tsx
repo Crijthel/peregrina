@@ -8,7 +8,7 @@ const BotonAcceso = ({ imagen, nombre, hover, repeate, link }: any) => {
     const texto = repeate
         ? nombre + " * " + nombre + " * " + nombre + " * " + nombre + " * "
         : nombre + " * " + nombre + " * ";
-    console.log(texto);
+ 
     return (
         <Link className="boton-acceso" to={"portafolio/" + link}>
             <img

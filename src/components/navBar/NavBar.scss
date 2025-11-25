@@ -50,7 +50,7 @@
 
 
 
-    @media (max-width: 992px) {
+    @media (max-width: 991px) {
         //tablets
 
         //hamburguesa
@@ -73,12 +73,7 @@
         }
 
 
-        //TODO PASAR A LA DERECHA
-        #basic-navbar-nav {
-            margin-left: 70vw;
-
-        }
-
+     
         .contacto {
             margin-left: 0;
         }
@@ -92,7 +87,9 @@
             margin-left: -40px;
 
         }
-
+    #basic-navbar-nav {
+            margin-left: 70vw;
+        }
     }
 
     @media (max-width: 800px) {
@@ -107,20 +104,31 @@
         }
     }
 
+    @media (max-width: 530px) {
+        #basic-navbar-nav {
+            margin-left: 45vw;
+        }
+    }
     @media (max-width: 400px) {
         #basic-navbar-nav {
             margin-left: 40vw;
         }
     }
 
+    @media (max-width: 380px) {
+           #basic-navbar-nav {
+            margin-left: 30vw;
+        }
+        .logo {
+            margin-left: 10px;
+        }
+
+        .navbar-toggler {
+
+            margin-right: 15px !important;
+        }
+    }
+
 }
 
-@media (max-width: 992px) {
-    //tablets
-
-}
-
-@media (max-width: 600px) {
-    //cel
-
-}
+ 

@@ -1,20 +1,22 @@
 import { useForm, ValidationError } from "@formspree/react";
 import "./Form.scss";
 import CircularProgress from "@mui/material/CircularProgress";
+import loading from "../../assets/loading-blanco.svg";
 
 const Formw = () => {
     const [state, handleSubmit] = useForm("manpbrpe");
-    //console.log("state", state);
-
     return (
-        <div className="form">  
-        <h1 className="title">Contacto</h1>
+        <div className="form">
+            <h1 className="title">Contacto</h1>
             {state.succeeded === true && state.submitting === false && (
                 <p className="message">Pronto nos pondremos en contacto.</p>
             )}
 
             {state.submitting === true ? (
-                <CircularProgress color="secondary" />
+                <img alt="loading" src={loading} className="loading" />
+                
+
+
             ) : (
                 <form onSubmit={handleSubmit}>
                     <input
@@ -45,7 +47,7 @@ const Formw = () => {
                         disabled={state.submitting}
                         className="button"
                     >
-                        Submit
+                        Enviar
                     </button>
                 </form>
             )}

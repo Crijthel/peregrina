@@ -5,7 +5,7 @@ import MyVerticallyCenteredModal from "../modal/MyVerticallyCenteredModal";
 const CardProyecto = ({ item }: any) => {
     const [modalShow, setModalShow] = useState(false);
     const srcImg = item.imagen !== "" ? "../../../" + item.imagen : "";
-    console.log(srcImg);
+ 
     return (
         <>
             <div

@@ -27,8 +27,7 @@ const Portafolio = () => {
             top: 0, // or desired vertical position in pixels
             left: 0, // or desired horizontal position in pixels
             behavior: "instant" as ScrollBehavior,
-        });
-        console.log("entro");
+        }); 
     }, []);
 
     return (

@@ -1,9 +1,15 @@
 @import "../../variables.scss";
+
 .form {
-  width: 60vw;
- // background-color: #282355;
-font-family: $komet;
+  width: 60vw; 
+  font-family: $komet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
   form {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,19 +67,38 @@ font-family: $komet;
       transition: 0.8s;
     }
   }
-}
 
-.loading {
-  padding-top: 10px;
+  .loading {
+    padding-top: 10px;
+    width: 100px;
+    margin: 0 auto;
+  }
+
 }
 
 .message {
+  margin-left: 20px;
+  font-family: "komet";
+  color: white;
   font-size: 30px;
 }
 
+
 @media only screen and (max-width: 900px) {
   .form {
-    width: 70vw;
+    width: 80vw;
+
+
+
+    .textarea {
+      height: 100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .form {
+    width: 100%;
 
     .textarea {
       height: 100px;

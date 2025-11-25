@@ -22,11 +22,6 @@ section {
   overflow: hidden;
 }
 
-// .controls {
-//   display: flex;
-//   flex-direction: row;
-//   gap: 0.5rem;
-// }
 
 .track {
   display: flex;
@@ -88,8 +83,8 @@ section {
 
 .project-card__title {
   color: #fff;
-  // font-weight: 700;
-  // font-size: 1.35rem;
+  text-shadow: 3px 3px 10px black !important;
+
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   font-family: "royal-ave";
@@ -129,6 +124,7 @@ section {
 }
 
 .project-card__desc {
+  text-shadow: 1px 1px 1px black !important;
   color: #ddd;
   font-size: 1rem;
   line-height: 1.4;
@@ -182,14 +178,10 @@ section {
   transform: scale(1.2);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   :root {
     --closed: 4rem;
     --open: 22rem;
-  }
-
-  .head {
-    padding: 50px 20px 30px;
   }
 
   .track {
@@ -215,22 +207,17 @@ section {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   :root {
     --closed: 100%;
     --open: 100%;
     --gap: 0.8rem;
   }
 
-  .head {
-    padding: 30px 15px 20px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-  }
+
 
   .slider {
-    padding: 0 15px;
+    padding: 0 50px;
   }
 
   .track {
@@ -276,7 +263,9 @@ section {
   }
 
   .project-card[data-active] .project-card__content {
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-around;
+
     padding: 1.5rem;
   }
 
@@ -314,6 +303,22 @@ section {
     width: 100%;
     justify-content: space-between;
     padding: 0 15px 20px;
+  }
+
+}
+
+@media (max-width: 550px) {
+
+  .project-card[data-active] .project-card__thumb {
+    display: none;
+    width: 200px;
+    height: 267px;
+  }
+
+  .project-card[data-active] .project-card__content {
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
   }
 
 }
