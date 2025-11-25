@@ -1,5 +1,12 @@
-html {
-    cursor: url("./assets/cursor.png");
-  
+body {
+    cursor: url("./assets/cursorEditado.png"), auto;
+
+
 }
 
+a,
+button {
+
+    cursor: url("./assets/cursorazul.png"), pointer !important;
+
+}

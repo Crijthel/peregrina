@@ -9,7 +9,8 @@
     color: $negro !important;
     background: #ffffff;
     background: linear-gradient(360deg, rgba(255, 255, 255, 0) 10%, rgba(167, 191, 195, 1) 100%);
-    position: absolute !important;
+    position: fixed !important;
+    z-index: 5;
     top: 0;
     width: 100% !important;
 
@@ -39,7 +40,7 @@
 
 
     .dropdown-menu {
-        background-color: rgba(167, 191, 195, 0.411);
+        background-color: rgba(167, 191, 195, 0.85);
         padding: 10px;
 
     }
@@ -73,7 +74,7 @@
         }
 
 
-     
+
         .contacto {
             margin-left: 0;
         }
@@ -87,7 +88,8 @@
             margin-left: -40px;
 
         }
-    #basic-navbar-nav {
+
+        #basic-navbar-nav {
             margin-left: 70vw;
         }
     }
@@ -109,6 +111,7 @@
             margin-left: 45vw;
         }
     }
+
     @media (max-width: 400px) {
         #basic-navbar-nav {
             margin-left: 40vw;
@@ -116,9 +119,10 @@
     }
 
     @media (max-width: 380px) {
-           #basic-navbar-nav {
+        #basic-navbar-nav {
             margin-left: 30vw;
         }
+
         .logo {
             margin-left: 10px;
         }
@@ -130,5 +134,3 @@
     }
 
 }
-
- 
