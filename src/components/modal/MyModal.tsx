@@ -100,7 +100,7 @@ const MyModal = (props: any) => {
                 Hecho por {props.item.autora}
                 {props.item.video ? (
                     <div className="video-modal">
-                        {!isLoading && (
+                        {isLoading && (
                             <img
                                 src={loading}
                                 className="loading"
