@@ -43,7 +43,7 @@ section {
   height: 26rem;
   border-radius: 1rem;
   overflow: hidden;
-  cursor:   url("../../assets/cursorazul.png"), pointer!important;
+  cursor: url("../../assets/cursorazul.png"), pointer !important;
   transition: flex-basis var(--speed), transform var(--speed);
 }
 
@@ -138,22 +138,19 @@ section {
   background: $azul-oscuro;
   font-size: 0.9rem;
   font-weight: 600;
-  cursor: url("../../assets/cursorazul.png"), pointer!important;
+  cursor: url("../../assets/cursorazul.png"), pointer !important;
 
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
+  color: #fff;
+
+
 }
 
 .project-card__btn:hover {
   background: $blanco;
 
-  a {
-    text-decoration: none;
-    color: $azul-oscuro;
+  color: $azul-oscuro;
 
-  }
+
 
 }
 
@@ -169,7 +166,7 @@ section {
   height: 13px;
   border-radius: 50%;
   background: $rosado;
-  cursor: url("../../assets/cursorazul.png"), pointer!important;
+  cursor: url("../../assets/cursorazul.png"), pointer !important;
   transition: 0.3s;
 }
 

@@ -70,7 +70,6 @@ const MyModal = (props: any) => {
     const [isLoading, setIsLoading] = useState(true);
 
     const handleIframeLoad = () => {
-        console.log("dsafsd")
         setIsLoading(false);
     };
     return (
@@ -101,10 +100,10 @@ const MyModal = (props: any) => {
                 Hecho por {props.item.autora}
                 {props.item.video ? (
                     <div className="video-modal">
-                        {isLoading && (
+                        {!isLoading && (
                             <img
                                 src={loading}
-                                className="loading "
+                                className="loading"
                                 alt="loading"
                             />
                         )}
@@ -132,8 +131,7 @@ const MyModal = (props: any) => {
                     />
                 )}
                 <span className="desc">{props.item.descripcion}</span>
-                <div
-                    className="iconos-proyectos">
+                <div className="iconos-proyectos">
                     <span>Programas utilizados: </span>
                     <div>{handleIcons()}</div>
                 </div>

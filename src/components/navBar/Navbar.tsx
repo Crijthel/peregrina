@@ -14,36 +14,36 @@ const NavbarComp = () => {
                 <Nav className="me-auto ">
                     <NavDropdown
                         className="estilo-portafolio"
-                        title="Portafolio"
+                        title="Portfolio"
                         id="navbarScrollingDropdown"
                     >
                         <NavDropdown.Item
                             className="estilo-link"
-                            href="/portafolio/tratamiento-de-imagenes"
+                            href="/portfolio/tratamiento-de-imagenes"
                         >
                             Tratamiento de imágenes
                         </NavDropdown.Item>
                         <NavDropdown.Item
                             className="estilo-link"
-                            href="/portafolio/motion-graphics"
+                            href="/portfolio/motion-graphics"
                         >
                             Motion graphics
                         </NavDropdown.Item>
                         <NavDropdown.Item
                             className="estilo-link"
-                            href="/portafolio/ilustraciones"
+                            href="/portfolio/ilustraciones"
                         >
                             Ilustraciones
                         </NavDropdown.Item>
                         <NavDropdown.Item
                             className="estilo-link"
-                            href="/portafolio/vfx"
+                            href="/portfolio/vfx"
                         >
                             VFX
                         </NavDropdown.Item>
                         <NavDropdown.Item
                             className="estilo-link"
-                            href="/portafolio/3d"
+                            href="/portfolio/3d"
                         >
                             3D
                         </NavDropdown.Item>

@@ -5,12 +5,8 @@ import art from "../../../assets/icons/ARTSTATIOn-01.avif";
 import fondo from "../../../assets/fondo/OndaWebeditada.png";
 
 import "./Contact.scss";
-import { useParams } from "react-router";
 
 const Contact = ({ page }: any) => {
-    const params = useParams();
-
-    console.log(params);
     return (
         <div id="contacto" className={page}>
             <img alt="fondo" src={fondo} className="fondo" />
@@ -18,7 +14,7 @@ const Contact = ({ page }: any) => {
             <div className="contact_container">
                 <Formw />
                 <div className="links">
-                    <h1 className="chusmea">Chusmeá</h1>
+                    <h1 className="chusmea">Chusmea</h1>
                     <div className="d-flex">
                         <a
                             href="https://www.instagram.com/peregrina_dm/"

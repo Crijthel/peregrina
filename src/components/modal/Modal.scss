@@ -32,8 +32,9 @@
 		.loading {
 			position: absolute;
 			top: 30%;
-			right: 45%;
+			left: 50%;
 			width: 70px;
+			transform: translateX(-50%);
 		}
 
 		.video-modal {
@@ -57,7 +58,7 @@
 			height: 350px !important;
 			object-fit: contain;
 		}
-		
+
 		.iconos-proyectos {
 			display: flex;
 			justify-content: center;
@@ -88,6 +89,12 @@
 	}
 }
 
+@media (min-width: 1000px) {
+	.loading {
+		top: 35% !important;
+	}
+}
+
 @media (max-width: 991px) {
 	.modal-body {
 		.video-modal {
@@ -98,8 +105,14 @@
 
 		span {
 			z-index: 2;
-
 		}
+	}
+
+}
+
+@media (max-width: 700px) {
+	.loading {
+		top: 33% !important;
 	}
 }
 
@@ -145,5 +158,9 @@
 			align-items: center;
 			gap: 10px
 		}
+	}
+
+	.loading {
+		top: 28% !important;
 	}
 }

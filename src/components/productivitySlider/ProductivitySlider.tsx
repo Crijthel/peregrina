@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect, useCallback } from "react";
-import "./ProductivitySlider.scss"; // Asegúrate de que el CSS esté en este archivo
+import "./ProductivitySlider.scss";  
 import tratamiento from "../../assets/proyectos/tratamiento/Guadalupe Novas - Final - Tratamiento 2.png";
 import tratamientoHover from "../../assets/proyectos/tratamiento/ilustraciones.gif";
 import tresd from "../../assets/proyectos/3d/video_auto_00031.png";
@@ -10,8 +10,7 @@ import motion from "../../assets/proyectos/motion-g/15sMotionGraphicsAbasto_0007
 import motionHover from "../../assets/proyectos/motion-g/motion.gif";
 import vfx from "../../assets/proyectos/vfx/ejemplo4.jpg";
 import vfxHover from "../../assets/proyectos/vfx/vfx.gif";
-import { Link } from "react-router";
-
+import { useNavigate } from 'react-router-dom';
 const initialCardsData = [
     {
         title: "Tratamiento de imágenes",
@@ -53,12 +52,11 @@ const initialCardsData = [
 const ProductivitySlider = () => {
     const trackRef = useRef(null);
     const cardsRef: any = useRef([]);
-    const wrapRef = useRef(null); // Referencia al div.slider (contenedor del track)
+    const wrapRef = useRef(null);  
     const [current, setCurrent] = useState(0);
     const isMobile = () => window.matchMedia("(max-width:767px)").matches;
     const cardsLength = initialCardsData.length;
-
-    // Función para centrar la tarjeta activa
+  const navigate = useNavigate();
     const centerCard = useCallback((index: any) => {
         if (!wrapRef.current || !cardsRef.current[index]) return;
 
@@ -75,8 +73,7 @@ const ProductivitySlider = () => {
             behavior: "smooth",
         });
     }, []);
-
-    // Función para activar una tarjeta (navegación por botones, dots o clic)
+ 
     const activate = useCallback(
         (index: any, scroll = false) => {
             if (index === current) return;
@@ -86,26 +83,21 @@ const ProductivitySlider = () => {
             if (scroll) centerCard(newIndex);
         },
         [current, cardsLength, centerCard]
-    );
-
-    // Función para mover el slider (Prev/Next)
+    ); 
     const go = (step: any) => {
         const newIndex = current + step;
         activate(newIndex, true);
     };
-
-    // Efecto para centrar la tarjeta al cargar y al redimensionar
+ 
     useEffect(() => {
         centerCard(current);
 
         const handleResize = () => centerCard(current);
         window.addEventListener("resize", handleResize);
-
-        // Limpiar el event listener al desmontar
+ 
         return () => window.removeEventListener("resize", handleResize);
     }, [centerCard, current]);
-
-    // Manejador de teclado
+ 
     useEffect(() => {
         const handleKeyDown = (e: any) => {
             if (["ArrowRight", "ArrowDown"].includes(e.key)) go(1);
@@ -114,9 +106,7 @@ const ProductivitySlider = () => {
         window.addEventListener("keydown", handleKeyDown);
         return () => window.removeEventListener("keydown", handleKeyDown);
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [current]); // Dependencia en 'current' para asegurar que 'go' use el estado más reciente
-
-    // Lógica de Swipe Táctil
+    }, [current]);  
     useEffect(() => {
         if (!trackRef.current) return;
         let sx = 0;
@@ -175,7 +165,7 @@ const ProductivitySlider = () => {
                                 alt=""
                             />
                             <div className="project-card__content">
-                                {current === index && ( // Renderizar solo el contenido completo si está activo
+                                {current === index && ( 
                                     <>
                                         <img
                                             className="project-card__thumb"
@@ -189,20 +179,16 @@ const ProductivitySlider = () => {
                                             <p className="project-card__desc">
                                                 {card.desc}
                                             </p>
-                                            <button className="project-card__btn">
-                                                <Link
-                                                    to={
-                                                        "portafolio/" +
-                                                        card.link
-                                                    }
-                                                >
+                                            <button className="project-card__btn" onClick={()=>navigate("portfolio/" +
+                                                        card.link)}>
+                                               
                                                     Ver más
-                                                </Link>
+                                               
                                             </button>
                                         </div>
                                     </>
                                 )}
-                                {current !== index && ( // Renderizar solo el título si no está activo (modo vertical/mini)
+                                {current !== index && ( 
                                     <h3 className="project-card__title">
                                         {card.title}
                                     </h3>

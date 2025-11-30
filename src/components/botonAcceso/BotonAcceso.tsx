@@ -10,7 +10,7 @@ const BotonAcceso = ({ imagen, nombre, hover, repeate, link }: any) => {
         : nombre + " * " + nombre + " * ";
  
     return (
-        <Link className="boton-acceso" to={"portafolio/" + link}>
+        <Link className="boton-acceso" to={"portfolio/" + link}>
             <img
                 alt={nombre}
                 src={isHovering ? hover : imagen}

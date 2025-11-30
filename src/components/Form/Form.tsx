@@ -1,6 +1,5 @@
 import { useForm, ValidationError } from "@formspree/react";
 import "./Form.scss";
-import CircularProgress from "@mui/material/CircularProgress";
 import loading from "../../assets/loading-blanco.svg";
 
 const Formw = () => {
