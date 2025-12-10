@@ -27,11 +27,11 @@ const initialCardsData = [
         link: "motion-graphics",
     },
     {
-        title: "Ilustraciones",
+        title: "Diseño Gráfico",
         desc: "Hechos con todo tipo de herramientas digitales y dispositivos electrónicos.",
         bgSrc: ilustraciones,
         thumbSrc: ilustracionesHover,
-        link: "ilustraciones",
+        link: "diseno-grafico",
     },
     {
         title: "VFX",

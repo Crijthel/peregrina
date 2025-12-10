@@ -12,8 +12,8 @@ const Proyectos = () => {
                 return "tratamiento";
             case "motion-graphics":
                 return "motion";
-            case "ilustraciones":
-                return "ilustraciones";
+            case "diseno-grafico":
+                return "diseno";
             case "vfx":
                 return "vfx";
             case "3d":

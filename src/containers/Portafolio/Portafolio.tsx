@@ -13,8 +13,8 @@ const Portafolio = () => {
                 return "Tratamiento de Imagenes";
             case "motion-graphics":
                 return "Motion Graphics";
-            case "ilustraciones":
-                return "Ilustraciones";
+            case "diseno-grafico":
+                return "Diseño Gráfico";
             case "vfx":
                 return "VFX";
             case "3d":

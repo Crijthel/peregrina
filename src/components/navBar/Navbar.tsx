@@ -17,12 +17,7 @@ const NavbarComp = () => {
                         title="Portfolio"
                         id="navbarScrollingDropdown"
                     >
-                        <NavDropdown.Item
-                            className="estilo-link"
-                            href="/portfolio/tratamiento-de-imagenes"
-                        >
-                            Tratamiento de imágenes
-                        </NavDropdown.Item>
+                        
                         <NavDropdown.Item
                             className="estilo-link"
                             href="/portfolio/motion-graphics"
@@ -31,15 +26,15 @@ const NavbarComp = () => {
                         </NavDropdown.Item>
                         <NavDropdown.Item
                             className="estilo-link"
-                            href="/portfolio/ilustraciones"
+                            href="/portfolio/diseno-grafico"
                         >
-                            Ilustraciones
+                             Diseño Gráfico
                         </NavDropdown.Item>
                         <NavDropdown.Item
                             className="estilo-link"
-                            href="/portfolio/vfx"
+                            href="/portfolio/web"
                         >
-                            VFX
+                            WEB
                         </NavDropdown.Item>
                         <NavDropdown.Item
                             className="estilo-link"
@@ -48,6 +43,15 @@ const NavbarComp = () => {
                             3D
                         </NavDropdown.Item>
                     </NavDropdown>
+                    <Nav.Link href="/nosotras" className="contacto estilo-link">
+                        Nosotras
+                    </Nav.Link>
+                    <Nav.Link
+                        href="/identidad"
+                        className="contacto estilo-link"
+                    >
+                        Identidad
+                    </Nav.Link>
                     <Nav.Link href="#contacto" className="contacto estilo-link">
                         Contacto
                     </Nav.Link>

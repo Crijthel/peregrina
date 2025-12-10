@@ -23,3 +23,22 @@ code {
     src: local("royal-ave"),
         url("./assets/fonts/Royal_Avenue_Demo.otf") format("opentype");
 }
+@font-face {
+    font-family: "montserrat-light";
+    /* Choose a name for your font */
+    src: local("montserrat"),
+        url("./assets/fonts/Montserrat-Light.otf") format("opentype");
+}
+@font-face {
+    font-family: "montserrat-medium";
+    /* Choose a name for your font */
+    src: local("montserrat"),
+        url("./assets/fonts/Montserrat-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "montserrat";
+    /* Choose a name for your font */
+    src: local("montserrat"),
+        url("./assets/fonts/Montserrat-Regular.otf") format("opentype");
+}
