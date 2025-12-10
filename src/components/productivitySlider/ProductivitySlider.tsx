@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect, useCallback } from "react";
-import "./ProductivitySlider.scss";  
+import "./ProductivitySlider.scss";
 import tratamiento from "../../assets/proyectos/tratamiento/Guadalupe Novas - Final - Tratamiento 2.png";
 import tratamientoHover from "../../assets/proyectos/tratamiento/ilustraciones.gif";
 import tresd from "../../assets/proyectos/3d/video_auto_00031.png";
@@ -10,15 +10,8 @@ import motion from "../../assets/proyectos/motion-g/15sMotionGraphicsAbasto_0007
 import motionHover from "../../assets/proyectos/motion-g/motion.gif";
 import vfx from "../../assets/proyectos/vfx/ejemplo4.jpg";
 import vfxHover from "../../assets/proyectos/vfx/vfx.gif";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 const initialCardsData = [
-    {
-        title: "Tratamiento de imágenes",
-        desc: "Mejorar su calidad visual o adaptarlas a necesidades específicas.",
-        bgSrc: tratamiento,
-        thumbSrc: tratamientoHover,
-        link: "tratamiento-de-imagenes",
-    },
     {
         title: "Motion Graphics",
         desc: "Movimiento a elementos gráficos.",
@@ -34,7 +27,7 @@ const initialCardsData = [
         link: "diseno-grafico",
     },
     {
-        title: "VFX",
+        title: "WEB",
         desc: "Efectos especiales personalizados a tu necesidad.",
         bgSrc: vfx,
         thumbSrc: vfxHover,
@@ -52,11 +45,11 @@ const initialCardsData = [
 const ProductivitySlider = () => {
     const trackRef = useRef(null);
     const cardsRef: any = useRef([]);
-    const wrapRef = useRef(null);  
+    const wrapRef = useRef(null);
     const [current, setCurrent] = useState(0);
     const isMobile = () => window.matchMedia("(max-width:767px)").matches;
     const cardsLength = initialCardsData.length;
-  const navigate = useNavigate();
+    const navigate = useNavigate();
     const centerCard = useCallback((index: any) => {
         if (!wrapRef.current || !cardsRef.current[index]) return;
 
@@ -73,7 +66,7 @@ const ProductivitySlider = () => {
             behavior: "smooth",
         });
     }, []);
- 
+
     const activate = useCallback(
         (index: any, scroll = false) => {
             if (index === current) return;
@@ -83,21 +76,21 @@ const ProductivitySlider = () => {
             if (scroll) centerCard(newIndex);
         },
         [current, cardsLength, centerCard]
-    ); 
+    );
     const go = (step: any) => {
         const newIndex = current + step;
         activate(newIndex, true);
     };
- 
+
     useEffect(() => {
         centerCard(current);
 
         const handleResize = () => centerCard(current);
         window.addEventListener("resize", handleResize);
- 
+
         return () => window.removeEventListener("resize", handleResize);
     }, [centerCard, current]);
- 
+
     useEffect(() => {
         const handleKeyDown = (e: any) => {
             if (["ArrowRight", "ArrowDown"].includes(e.key)) go(1);
@@ -106,7 +99,7 @@ const ProductivitySlider = () => {
         window.addEventListener("keydown", handleKeyDown);
         return () => window.removeEventListener("keydown", handleKeyDown);
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [current]);  
+    }, [current]);
     useEffect(() => {
         if (!trackRef.current) return;
         let sx = 0;
@@ -165,7 +158,7 @@ const ProductivitySlider = () => {
                                 alt=""
                             />
                             <div className="project-card__content">
-                                {current === index && ( 
+                                {current === index && (
                                     <>
                                         <img
                                             className="project-card__thumb"
@@ -179,16 +172,20 @@ const ProductivitySlider = () => {
                                             <p className="project-card__desc">
                                                 {card.desc}
                                             </p>
-                                            <button className="project-card__btn" onClick={()=>navigate("portfolio/" +
-                                                        card.link)}>
-                                               
-                                                    Ver más
-                                               
+                                            <button
+                                                className="project-card__btn"
+                                                onClick={() =>
+                                                    navigate(
+                                                        "portfolio/" + card.link
+                                                    )
+                                                }
+                                            >
+                                                Ver más
                                             </button>
                                         </div>
                                     </>
                                 )}
-                                {current !== index && ( 
+                                {current !== index && (
                                     <h3 className="project-card__title">
                                         {card.title}
                                     </h3>
