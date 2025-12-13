@@ -1,0 +1,20 @@
+.cardweb-container {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    .card-item-web {
+        border: 1px solid black;
+        width: 50vw;
+        //height: ;
+
+        img {
+            width: 100%;
+        }
+    }
+}

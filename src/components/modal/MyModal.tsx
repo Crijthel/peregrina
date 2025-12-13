@@ -130,6 +130,20 @@ const MyModal = (props: any) => {
                         alt={props.item.nombre}
                     />
                 )}
+                {props.item.imagen2 && (
+                    <img
+                        className={"imagen-modal"}
+                        src={props.item.imagen2}
+                        alt={props.item.nombre}
+                    />
+                )}
+                {props.item.imagen3 && (
+                    <img
+                        className={"imagen-modal"}
+                        src={props.item.imagen3}
+                        alt={props.item.nombre}
+                    />
+                )}
                 <span className="desc">{props.item.descripcion}</span>
                 <div className="iconos-proyectos">
                     <span>Programas utilizados: </span>

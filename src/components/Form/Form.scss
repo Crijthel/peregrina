@@ -2,18 +2,22 @@
 
 .form {
   width: 60vw;
-  font-family: $komet;
+  font-family: 'montserrat' !important;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+.title{
+    font-family: 'montserrat' !important;
 
+}
   form {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  font-family: 'montserrat-light' !important;
   }
 
   .mail,

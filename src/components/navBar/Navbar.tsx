@@ -30,6 +30,12 @@ const NavbarComp = () => {
                         >
                              Diseño Gráfico
                         </NavDropdown.Item>
+                                                <NavDropdown.Item
+                            className="estilo-link"
+                            href="/portfolio/campana-publicitaria"
+                        >
+                             Campaña Publicitaria
+                        </NavDropdown.Item>
                         <NavDropdown.Item
                             className="estilo-link"
                             href="/portfolio/web"

@@ -9,12 +9,14 @@ const Portafolio = () => {
     const params = useParams();
     const setearTexto = () => {
         switch (params.tipo) {
-            case "tratamiento-de-imagenes":
-                return "Tratamiento de Imagenes";
+            case "web":
+                return "WEB";
             case "motion-graphics":
                 return "Motion Graphics";
             case "diseno-grafico":
                 return "Diseño Gráfico";
+            case "campana-publicitaria":
+                return "Campaña Publicitaria";
             case "vfx":
                 return "VFX";
             case "3d":
@@ -27,7 +29,7 @@ const Portafolio = () => {
             top: 0, // or desired vertical position in pixels
             left: 0, // or desired horizontal position in pixels
             behavior: "instant" as ScrollBehavior,
-        }); 
+        });
     }, []);
 
     return (

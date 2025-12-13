@@ -1,7 +1,5 @@
 import React, { useRef, useState, useEffect, useCallback } from "react";
 import "./ProductivitySlider.scss";
-import tratamiento from "../../assets/proyectos/tratamiento/Guadalupe Novas - Final - Tratamiento 2.png";
-import tratamientoHover from "../../assets/proyectos/tratamiento/ilustraciones.gif";
 import tresd from "../../assets/proyectos/3d/video_auto_00031.png";
 import tresdHover from "../../assets/proyectos/3d/tresd.gif";
 import ilustraciones from "../../assets/proyectos/ilustraciones/cami.avif";
@@ -21,10 +19,17 @@ const initialCardsData = [
     },
     {
         title: "Diseño Gráfico",
-        desc: "Hechos con todo tipo de herramientas digitales y dispositivos electrónicos.",
+        desc: "Producciones de diseño gráfico realizadas con herramientas digitales.",
         bgSrc: ilustraciones,
         thumbSrc: ilustracionesHover,
         link: "diseno-grafico",
+    },
+        {
+        title: "Campaña Publicitaria",
+        desc: "Proyectos de campaña abordados desde el diseño visual, la animación y los medios digitales.",
+        bgSrc: ilustraciones,
+        thumbSrc: ilustracionesHover,
+        link: "campana-publicitaria",
     },
     {
         title: "WEB",

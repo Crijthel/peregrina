@@ -14,7 +14,7 @@ const Contact = ({ page }: any) => {
             <div className="contact_container">
                 <Formw />
                 <div className="links">
-                    <h1 className="chusmea">Chusmea</h1>
+                    <h1 className="chusmea">Chusmeá</h1>
                     <div className="d-flex">
                         <a
                             href="https://www.instagram.com/peregrina_dm/"
