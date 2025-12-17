@@ -9,11 +9,13 @@ const CardWeb = ({ data }: any) => {
                     item.imagen !== "" ? "../../../" + item.imagen : "";
                 return (
                     <div className="card-item-web">
-                        <span>{item.nombre}</span>
                         <img src={srcImg} className={""} alt={item.nombre} />
+                        <div className='texto-link'>
+                          
                         <a href={item.link} target="_blank" rel="noreferrer">
-                            visitar
+                            visitar {item.nombre}
                         </a>
+                            </div>
                     </div>
                 );
             })}

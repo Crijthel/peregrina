@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
 import "./Portafolio.scss";
-import NavbarComp from "../../components/navBar/Navbar";
 import { useParams } from "react-router-dom";
-import Contact from "../Home/Contact/Contact";
 import Proyectos from "../../components/proyectos/Proyectos";
 
 const Portafolio = () => {
     const params = useParams();
+    console.log(params)
     const setearTexto = () => {
         switch (params.tipo) {
             case "web":
@@ -26,23 +25,18 @@ const Portafolio = () => {
     };
     useEffect(() => {
         window.scrollTo({
-            top: 0, // or desired vertical position in pixels
-            left: 0, // or desired horizontal position in pixels
+            top: 0, 
+            left: 0,
             behavior: "instant" as ScrollBehavior,
         });
     }, []);
 
     return (
-        <>
-            <NavbarComp />
+
             <div className="portafolio-container">
                 <h1>{setearTexto()}</h1>
-
                 <Proyectos />
             </div>
-
-            <Contact page="portafolio-contact" />
-        </>
     );
 };
 

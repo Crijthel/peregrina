@@ -1,20 +1,66 @@
+@import '../../variables.scss';
+
 .cardweb-container {
-    width: 100%;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+  
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 
-    .card-item-web {
-        border: 1px solid black;
-        width: 50vw;
-        //height: ;
+  .card-item-web {
+    border-radius: 10px;
+    
+    width: 70%;
+    //height: ;
+    position: relative;
 
-        img {
-            width: 100%;
-        }
+    img {
+      width: 100%;
+      border-radius: 10px;
     }
+    .texto-link {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      //opacity: 1;
+       opacity: 0;
+      border-radius: 10px;
+      background-color: #ef5e248f;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center; 
+       transition:  0.5s;
+      // gap:30px;
+      h2 {
+        font-family: 'royal-ave';
+        color: rgb(0, 0, 0);
+      }
+      a {  
+        transition:  0.5s;
+        font-size: 30px;
+        text-decoration: none;
+        color: $blanco;
+        background-color:$base-morado;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-family: 'royal-ave';
+      }
+      a:hover{
+background-color: $blanco;
+        color:$base-morado;
+      }
+    }
+  }
+
+  .texto-link:hover {
+    
+    opacity: 1;
+  }
 }

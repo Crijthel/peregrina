@@ -56,10 +56,10 @@
     img {
       height: 70px;
       width: 100px;
+      transition: 0.5s;
 
       &:hover {
         opacity: 0.4;
-        transition: 0.8s;
       }
     }
   }

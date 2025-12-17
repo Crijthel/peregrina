@@ -42,8 +42,8 @@
                     "nombre": "Branding",
                     "descripcion": "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
                     "autora": "Todas",
-                    "imagen": "proyectos/tratamiento/areli_gomila_fidnal.jpg",
-                    "video": "https://www.youtube.com/embed/3G54aVHYnss?si=ZQs6ffKQTlAUjB6X&loop=1&playlist=3G54aVHYnss&autoplay=1",
+                    "imagen": "proyectos/tratamiento/branding2.jpg",
+                    "video": "https://www.youtube.com/embed/Q5vkl-GT7Ao?si=EWOQR5CBikbcg3rG&loop=1&playlist=Q5vkl-GT7Ao&autoplay=1",
                     "stack": ["Photoshop"]
                 }
             ]
@@ -154,8 +154,8 @@
                 },
                 {
                     "nombre": "Secciones",
-                    "imagen": "proyectos/web/landing.png",
-                    "link": "https://mylandingperegrina.universoperegrina.shop/"
+                    "imagen": "proyectos/web/secciones.jpg",
+                    "link": "https://websecciones.universoperegrina.shop/"
                 }
             ]
         },
@@ -163,12 +163,11 @@
             "gif": "",
             "proyectos": [
                 {
-                    "nombre": "Robot Futurista",
-                    "descripcion": "Pieza ilustrativa.",
+                    "nombre": "Swiss Medical",
+                    "descripcion": "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
                     "autora": "Areli Gomila",
-                    "imagend": "/proyectos/ilustraciones/are.avif",
-                    "imagen2": "/proyectos/ilustraciones/mockuprobot.png",
-                    "imagen": "/proyectos/ilustraciones/cyborg.jpg",
+                    "imagen": "/proyectos/tratamiento/campana.png",
+                    "video": "https://www.youtube.com/embed/hwGMhm_Mguo?si=rYLo3jZLI4QaCS0x&loop=1&playlist=hwGMhm_Mguo&autoplay=1",
                     "stack": ["Illustrator"]
                 }
             ]
