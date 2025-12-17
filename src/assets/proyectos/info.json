@@ -63,8 +63,8 @@
                     "nombre": "Robot Arelio",
                     "descripcion": "Pieza inspirada en un robot del futuro.",
                     "autora": "Areli Gomila",
-                    "imagen": "proyectos/3d/secuencia_are.png",
-                    "video": "https://www.youtube.com/embed/Svpt5k8X2j4?si=sXIbY8688woLuPJs&loop=1&playlist=Svpt5k8X2j4&autoplay=1",
+                    "imagen": "proyectos/3d/robotare.jpg",
+                    "video": "https://www.youtube.com/embed/Vo8nfaxgW40?si=sC0fDF2aIRbuEB-K&loop=1&playlist=Vo8nfaxgW40&autoplay=1",
                     "stack": ["Blender"]
                 },
                 {
@@ -72,7 +72,7 @@
                     "descripcion": "Pieza inspirada en las gargolas.",
                     "autora": "Guadalupe Novas",
                     "imagen": "proyectos/3d/trico(3D)_00000.png",
-                    "video": "https://www.youtube.com/embed/qnL4DZ6MG5s?si=JLg93MPlQdoCkJ3-&loop=1&playlist=qnL4DZ6MG5s&autoplay=1",
+                    "video": "https://www.youtube.com/embed/i0rEHpPIbJA?si=Ly6QoXoXAMTbqGeA&loop=1&playlist=i0rEHpPIbJA&autoplay=1",
                     "stack": ["ZBrush"]
                 },
                 {
