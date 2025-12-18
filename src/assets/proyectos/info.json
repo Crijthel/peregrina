@@ -27,24 +27,23 @@
                     "descripcion": "Poster inspirado en el anime hunter x hunter.",
                     "autora": "Guadalupe Novas",
                     "imagen": "/proyectos/tratamiento/hxh.png",
-                    "video": "https://www.youtube.com/embed/GfEHVlGJ-Mw?si=2NnjRkPncnsupyOV&loop=1&playlist=GfEHVlGJ-Mw&autoplay=1",
+
                     "stack": ["Photoshop"]
                 },
                 {
                     "nombre": "Shutter Island",
                     "descripcion": "Poster inspirado en la pelicula Shutter Island.",
                     "autora": "Areli Gomila",
-                    "imagen": "proyectos/tratamiento/areli_gomila_final.jpg",
-                    "video": "https://www.youtube.com/embed/3G54aVHYnss?si=ZQs6ffKQTlAUjB6X&loop=1&playlist=3G54aVHYnss&autoplay=1",
+                    "imagen": "/proyectos/tratamiento/shutter.png",
                     "stack": ["Photoshop"]
                 },
                 {
                     "nombre": "Branding",
-                    "descripcion": "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
-                    "autora": "Todas",
-                    "imagen": "proyectos/tratamiento/branding2.jpg",
+                    "descripcion": "video branding para el emprendimiento de cookies Ochibites ",
+                    "autora": "Cristhel Francisco",
+                    "imagen": "/proyectos/tratamiento/branding2.jpg",
                     "video": "https://www.youtube.com/embed/Q5vkl-GT7Ao?si=EWOQR5CBikbcg3rG&loop=1&playlist=Q5vkl-GT7Ao&autoplay=1",
-                    "stack": ["Photoshop"]
+                    "stack": ["After Effects", "Illustrator"]
                 }
             ]
         },
@@ -60,8 +59,8 @@
                     "stack": ["Photoshop", "Blender"]
                 },
                 {
-                    "nombre": "Robot Arelio",
-                    "descripcion": "Pieza inspirada en un robot del futuro.",
+                    "nombre": "Robot FCG",
+                    "descripcion": "Robot de Crirical roll llamado FCG.",
                     "autora": "Areli Gomila",
                     "imagen": "proyectos/3d/robotare.jpg",
                     "video": "https://www.youtube.com/embed/Vo8nfaxgW40?si=sC0fDF2aIRbuEB-K&loop=1&playlist=Vo8nfaxgW40&autoplay=1",
@@ -69,7 +68,7 @@
                 },
                 {
                     "nombre": "Trico",
-                    "descripcion": "Pieza inspirada en las gargolas.",
+                    "descripcion": "Pieza inspirada en Trico de the last guardian.",
                     "autora": "Guadalupe Novas",
                     "imagen": "proyectos/3d/trico(3D)_00000.png",
                     "video": "https://www.youtube.com/embed/i0rEHpPIbJA?si=Ly6QoXoXAMTbqGeA&loop=1&playlist=i0rEHpPIbJA&autoplay=1",
@@ -98,7 +97,7 @@
             "proyectos": [
                 {
                     "nombre": "Luciernagas",
-                    "descripcion": "Pieza audiovisual que habla sobre una app para relajar.",
+                    "descripcion": "Publicidad que habla sobre la protección de bosques",
                     "autora": "Areli Gomila",
                     "imagen": "proyectos/motion/Luciernagas_00053.png",
                     "video": "https://www.youtube.com/embed/MEmllMEmHns?si=pLE92XuJzcuudQ1f&loop=1&playlist=MEmllMEmHns&autoplay=1",
@@ -117,12 +116,12 @@
                     "descripcion": "Pieza audiovisual que hace una crítica hacia las adicciones.",
                     "autora": "Renata Panzarella",
                     "imagen": "proyectos/motion/again_00193.png",
-                    "video": "https://www.youtube.com/embed/SxER1y3UJXA?si=7gc7BdTWflUwzerS&loop=1&playlist=SxER1y3UJXA&autoplay=1",
+                    "video": "https://www.youtube.com/embed/xisCNVEp00Q?si=fKMvHLQcaL0GydEL&loop=1&playlist=xisCNVEp00Q&autoplay=1",
                     "stack": ["After Effects", "Illustrator"]
                 },
                 {
                     "nombre": "Ojo",
-                    "descripcion": "Pieza audiovisual con un concepto abstracto.",
+                    "descripcion": "Publicidad de anteojos con inteligencia artificial",
                     "autora": "Renata Panzarella",
                     "imagen": "proyectos/motion/motion_graphic_00093.png",
                     "video": "https://www.youtube.com/embed/QPN29rKJIeo?si=b8y5-4J7RLFz6OhN&loop=1&playlist=QPN29rKJIeo&autoplay=1",
@@ -164,11 +163,11 @@
             "proyectos": [
                 {
                     "nombre": "Swiss Medical",
-                    "descripcion": "Lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
-                    "autora": "Areli Gomila",
+                    "descripcion": "Video caso sobre campaña publicitaria realizada para Swiss medical.",
+                    "autora": "Clara Abate",
                     "imagen": "/proyectos/tratamiento/campana.png",
                     "video": "https://www.youtube.com/embed/hwGMhm_Mguo?si=rYLo3jZLI4QaCS0x&loop=1&playlist=hwGMhm_Mguo&autoplay=1",
-                    "stack": ["Illustrator"]
+                    "stack": ["After Effects"]
                 }
             ]
         }
