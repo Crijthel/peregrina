@@ -123,8 +123,8 @@ const MyModal = (props: any) => {
                     <img
                         className={
                             props.item.verticalImage
-                                ? "imagen-modal verticalImage"
-                                : "imagen-modal"
+                                ? "imagen-modal verticalImage mt-2"
+                                : "imagen-modal mt-2"
                         }
                         src={props.item.imagen}
                         alt={props.item.nombre}
@@ -132,18 +132,12 @@ const MyModal = (props: any) => {
                 )}
                 {props.item.imagen2 && (
                     <img
-                        className={"imagen-modal"}
+                        className={"imagen-modal mt-3"}
                         src={props.item.imagen2}
                         alt={props.item.nombre}
                     />
                 )}
-                {props.item.imagen3 && (
-                    <img
-                        className={"imagen-modal"}
-                        src={props.item.imagen3}
-                        alt={props.item.nombre}
-                    />
-                )}
+           
                 <span className="desc">{props.item.descripcion}</span>
                 <div className="iconos-proyectos">
                     <span>Programas utilizados: </span>

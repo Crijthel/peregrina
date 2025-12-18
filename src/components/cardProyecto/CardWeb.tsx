@@ -13,7 +13,7 @@ const CardWeb = ({ data }: any) => {
                         <div className='texto-link'>
                           
                         <a href={item.link} target="_blank" rel="noreferrer">
-                            visitar {item.nombre}
+                            Visitar {item.nombre}
                         </a>
                             </div>
                     </div>
