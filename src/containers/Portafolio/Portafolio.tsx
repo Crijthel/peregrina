@@ -9,7 +9,7 @@ const Portafolio = () => {
     const setearTexto = () => {
         switch (params.tipo) {
             case "web":
-                return "WEB";
+                return "Diseño Web";
             case "motion-graphics":
                 return "Motion Graphics";
             case "diseno-grafico":

@@ -4,8 +4,8 @@
             "gif": "",
             "proyectos": [
                 {
-                    "nombre": "Robot Futurista",
-                    "descripcion": "Pieza ilustrativa.",
+                    "nombre": "EXO 01",
+                    "descripcion": "Pieza ilustrativa del personaje de destiny llamado 'exo 01'.",
                     "autora": "Areli Gomila",
                     "imagend": "/proyectos/ilustraciones/are.avif",
                     "imagen2": "/proyectos/ilustraciones/mockuprobot.png",
@@ -14,8 +14,8 @@
                 },
 
                 {
-                    "nombre": "Robot Portal2",
-                    "descripcion": "Pieza ilustrativa inspirada por el juego Portal2.",
+                    "nombre": "Atlas",
+                    "descripcion": " Pieza Ilustrativa del robot Atlas de portal2.",
                     "autora": "Guadalupe Novas",
                     "imagend": "/proyectos/ilustraciones/guadi.avif",
                     "imagen2": "/proyectos/ilustraciones/mockupportal.png",
@@ -60,7 +60,7 @@
                 },
                 {
                     "nombre": "Robot FCG",
-                    "descripcion": "Robot de Crirical roll llamado FCG.",
+                    "descripcion": "Robot de Critical roll llamado FCG.",
                     "autora": "Areli Gomila",
                     "imagen": "proyectos/3d/robotare.jpg",
                     "video": "https://www.youtube.com/embed/Vo8nfaxgW40?si=sC0fDF2aIRbuEB-K&loop=1&playlist=Vo8nfaxgW40&autoplay=1",
@@ -142,17 +142,17 @@
             "gif": "",
             "proyectos": [
                 {
-                    "nombre": "Landing",
+                    "nombre": "Boticaria",
                     "imagen": "proyectos/web/landing.png",
                     "link": "https://mylandingperegrina.universoperegrina.shop/"
                 },
                 {
-                    "nombre": "E commerce",
+                    "nombre": "GOTR",
                     "imagen": "proyectos/web/ecommerce.png",
                     "link": "https://universoperegrina.shop/"
                 },
                 {
-                    "nombre": "Secciones",
+                    "nombre": "Armagedon",
                     "imagen": "proyectos/web/secciones.jpg",
                     "link": "https://websecciones.universoperegrina.shop/"
                 }
@@ -165,7 +165,7 @@
                     "nombre": "Swiss Medical",
                     "descripcion": "Video caso sobre campaña publicitaria realizada para Swiss medical.",
                     "autora": "Clara Abate",
-                    "imagen": "/proyectos/tratamiento/campana.png",
+                    "imagen": "/proyectos/tratamiento/campana.jpg",
                     "video": "https://www.youtube.com/embed/hwGMhm_Mguo?si=rYLo3jZLI4QaCS0x&loop=1&playlist=hwGMhm_Mguo&autoplay=1",
                     "stack": ["After Effects"]
                 }

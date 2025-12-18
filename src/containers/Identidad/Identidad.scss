@@ -12,12 +12,29 @@
 		font-family: "montserrat" !important;
 	}
 
-	.item-identidad{
+	.item-identidad {
 		margin-bottom: 10px;
-		h2{
-			margin: 20px 0 ;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		.titulo {
+			width: 70%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
+
+
+			h2 {
+				margin: 20px 0;
+
+			}
 		}
 	}
+
 	.video-id {
 		position: relative;
 
@@ -29,7 +46,7 @@
 			transform: translateX(-50%);
 		}
 
-		width: 960px;
+		width:70%;
 		height: 315px;
 
 		iframe {

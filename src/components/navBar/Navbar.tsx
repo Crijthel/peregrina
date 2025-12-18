@@ -17,7 +17,6 @@ const NavbarComp = () => {
                         title="Portfolio"
                         id="navbarScrollingDropdown"
                     >
-                        
                         <NavDropdown.Item
                             className="estilo-link"
                             href="/portfolio/motion-graphics"
@@ -28,19 +27,19 @@ const NavbarComp = () => {
                             className="estilo-link"
                             href="/portfolio/diseno-grafico"
                         >
-                             Diseño Gráfico
+                            Diseño Gráfico
                         </NavDropdown.Item>
-                                                <NavDropdown.Item
+                        <NavDropdown.Item
                             className="estilo-link"
                             href="/portfolio/campana-publicitaria"
                         >
-                             Campaña Publicitaria
+                            Campaña Publicitaria
                         </NavDropdown.Item>
                         <NavDropdown.Item
                             className="estilo-link"
                             href="/portfolio/web"
                         >
-                            WEB
+                            Diseño Web
                         </NavDropdown.Item>
                         <NavDropdown.Item
                             className="estilo-link"

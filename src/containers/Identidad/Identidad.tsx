@@ -22,7 +22,9 @@ const Identidad = () => {
             <h1>Identidad</h1>
 
             <div className="item-identidad">
-                <h2>Manifiesto</h2>
+                <div className="titulo">
+                    <h2>Manifiesto</h2>
+                </div>
 
                 <div className="video-id">
                     {isLoading && (
@@ -44,7 +46,9 @@ const Identidad = () => {
                 </div>
             </div>
             <div className="item-identidad">
-                <h2>Brandboard</h2>
+                <div className="titulo">
+                    <h2>Brandboard</h2>
+                </div>
 
                 <div className="video-id">
                     {isLoading2 && (
@@ -66,7 +70,9 @@ const Identidad = () => {
                 </div>
             </div>
             <div className="item-identidad">
-                <h2>Demoreel</h2>
+                <div className="titulo">
+                    <h2>Demoreel</h2>
+                </div>
 
                 <div className="video-id">
                     {isLoading3 && (

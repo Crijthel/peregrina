@@ -3,9 +3,11 @@ import "./ProductivitySlider.scss";
 import tresd from "../../assets/proyectos/carrousel/video_auto_00031.png";
 import tresdHover from "../../assets/proyectos/carrousel/tresd.gif";
 import disenograf from "../../assets/proyectos/carrousel/shutter.png";
-import disenografHover from "../../assets/proyectos/ilustraciones/ilustraciones.gif";
-import campana from "../../assets/proyectos/carrousel/web.jpg";
+import disenografHover from "../../assets/proyectos/carrousel/diseno.gif";
+import campana from "../../assets/proyectos/carrousel/campana.jpg";
+import campanaHover from "../../assets/proyectos/carrousel/campana.gif";
 import web from "../../assets/proyectos/carrousel/web.jpg";
+import webHover from "../../assets/proyectos/carrousel/web.gif";
 import motion from "../../assets/proyectos/carrousel/Luciernagas_00053.png";
 import motionHover from "../../assets/proyectos/carrousel/motion.gif";
 
@@ -29,14 +31,14 @@ const initialCardsData = [
         title: "Campaña Publicitaria",
         desc: "Proyectos de campaña abordados desde el diseño visual, la animación y los medios digitales.",
         bgSrc: campana,
-        thumbSrc: campana,
+        thumbSrc: campanaHover,
         link: "campana-publicitaria",
     },
     {
-        title: "WEB",
+        title: "Diseño Web",
         desc: "Sitios web personalizados a tu necesidad.",
         bgSrc: web,
-        thumbSrc: web,
+        thumbSrc: webHover,
         link: "web",
     },
     {

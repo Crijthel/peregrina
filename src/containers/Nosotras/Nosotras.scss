@@ -14,6 +14,14 @@
      .textos {
          width: 60vw;
          gap: 30px;
+
+         span {
+             font-size: 23px;
+         }
+
+         .cambiamos {
+             font-family: 'royal-ave';
+         }
      }
 
      h1,
@@ -47,7 +55,41 @@
          //text-align: center;
 
          img {
-             width: 100px;
+             width: 150px;
+         }
+     }
+
+     .video-id {
+         position: relative;
+         width: 100%;
+         height: 315px;
+
+         .loading {
+             position: absolute;
+             top: 30%;
+             left: 50%;
+             width: 70px;
+             transform: translateX(-50%);
+         }
+
+         iframe {
+             width: 100%;
+             height: 100%;
+             border-radius: 10px;
+         }
+
+     }
+
+ }
+
+ @media (max-width: 1200px) {
+     .container-nosotras {
+
+         .personajes {
+       
+             grid-template-columns: repeat(3, auto);
+
+
          }
      }
  }
@@ -56,24 +98,27 @@
      .container-nosotras {
 
          .personajes {
-             background-color: red;
+           
              grid-template-columns: repeat(3, auto);
 
-
+             //  .last {
+             //      grid-column: 1 / span 3 !important;
+             //  }
          }
      }
  }
 
  @media (max-width: 590px) {
      .container-nosotras {
-
          .personajes {
-             background-color: red;
              grid-template-columns: repeat(2, auto);
 
 
          }
 
+         .video-id {
+             width: 90%;
+         }
      }
  }
 
@@ -81,16 +126,15 @@
      .container-nosotras {
 
          .personajes {
-             background-color: red;
              grid-template-columns: repeat(2, auto);
 
-                 // Ajusta el tamaño según prefieras
+             // Ajusta el tamaño según prefieras
 
-                 // Seleccionamos la última imagen para que ocupe las 2 columnas
-                 .last {
-                     grid-column: 1 / span 2;
-                 }
-             
+             // Seleccionamos la última imagen para que ocupe las 2 columnas
+             //  .last {
+             //      grid-column: 1 / span 2;
+             //  }
+
          }
      }
  }
