@@ -1,13 +1,14 @@
 import React, { useRef, useState, useEffect, useCallback } from "react";
 import "./ProductivitySlider.scss";
-import tresd from "../../assets/proyectos/3d/video_auto_00031.png";
-import tresdHover from "../../assets/proyectos/3d/tresd.gif";
-import ilustraciones from "../../assets/proyectos/ilustraciones/cami.avif";
-import ilustracionesHover from "../../assets/proyectos/ilustraciones/ilustraciones.gif";
-import motion from "../../assets/proyectos/motion-g/15sMotionGraphicsAbasto_00072.png";
-import motionHover from "../../assets/proyectos/motion-g/motion.gif";
-import vfx from "../../assets/proyectos/vfx/ejemplo4.jpg";
-import vfxHover from "../../assets/proyectos/vfx/vfx.gif";
+import tresd from "../../assets/proyectos/carrousel/video_auto_00031.png";
+import tresdHover from "../../assets/proyectos/carrousel/tresd.gif";
+import disenograf from "../../assets/proyectos/carrousel/shutter.png";
+import disenografHover from "../../assets/proyectos/ilustraciones/ilustraciones.gif";
+import campana from "../../assets/proyectos/carrousel/web.jpg";
+import web from "../../assets/proyectos/carrousel/web.jpg";
+import motion from "../../assets/proyectos/carrousel/Luciernagas_00053.png";
+import motionHover from "../../assets/proyectos/carrousel/motion.gif";
+
 import { useNavigate } from "react-router-dom";
 const initialCardsData = [
     {
@@ -20,23 +21,23 @@ const initialCardsData = [
     {
         title: "Diseño Gráfico",
         desc: "Producciones de diseño gráfico realizadas con herramientas digitales.",
-        bgSrc: ilustraciones,
-        thumbSrc: ilustracionesHover,
+        bgSrc: disenograf,
+        thumbSrc: disenografHover,
         link: "diseno-grafico",
     },
-        {
+    {
         title: "Campaña Publicitaria",
         desc: "Proyectos de campaña abordados desde el diseño visual, la animación y los medios digitales.",
-        bgSrc: ilustraciones,
-        thumbSrc: ilustracionesHover,
+        bgSrc: campana,
+        thumbSrc: campana,
         link: "campana-publicitaria",
     },
     {
         title: "WEB",
-        desc: "Efectos especiales personalizados a tu necesidad.",
-        bgSrc: vfx,
-        thumbSrc: vfxHover,
-        link: "vfx",
+        desc: "Sitios web personalizados a tu necesidad.",
+        bgSrc: web,
+        thumbSrc: web,
+        link: "web",
     },
     {
         title: "3D",

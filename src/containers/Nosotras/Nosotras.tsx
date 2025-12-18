@@ -30,10 +30,10 @@ const Nosotras = () => {
                     <img src={personaje1} alt="personaje" />
                     <img src={personaje2} alt="personaje" />
                     <img src={personaje3} alt="personaje" />
-                    <img src={personaje4} alt="personaje" />
                     <img src={personaje5} alt="personaje" />
-                    <img src={personaje6} alt="personaje" />
+                    <img src={personaje4} alt="personaje" />
                     <img src={personaje7} alt="personaje" />
+                    <img src={personaje6} className="last" alt="personaje" />
                 </div>
             </div>
         </div>

@@ -1,36 +1,96 @@
  .container-nosotras {
-    margin-top: 120px;
-    gap: 40px;
-    
-    &,.textos, .contenido {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .textos {
-        width: 60vw;
-        gap: 30px;
-    }
+     margin-top: 120px;
+     gap: 40px;
 
-    h1,
-    span {
-        font-family: 'montserrat';
-    }
-    span{
-        text-align: center;
-    }
-    .contenido {
-gap:50px;
-padding-bottom: 30px;
-    }
-    .personajes{
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        width: 70%;
-        img{
-            width: 100px;
-        }
-    }
-}
+     &,
+     .textos,
+     .contenido {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .textos {
+         width: 60vw;
+         gap: 30px;
+     }
+
+     h1,
+     span {
+         font-family: 'montserrat';
+     }
+
+     span {
+         text-align: center;
+     }
+
+     .contenido {
+         gap: 50px;
+         padding-bottom: 30px;
+         //width: 100%;
+     }
+
+     .personajes {
+
+
+         width: 90%;
+         display: grid;
+         grid-template-columns: repeat(7, auto);
+         //grid-column: 2/4;
+         justify-content: center;
+         align-items: center;
+         grid-row-gap: 10px;
+         grid-column-gap: 10px;
+         //align-self: center;
+         //  background-color: blue;
+         //text-align: center;
+
+         img {
+             width: 100px;
+         }
+     }
+ }
+
+ @media (max-width: 770px) {
+     .container-nosotras {
+
+         .personajes {
+             background-color: red;
+             grid-template-columns: repeat(3, auto);
+
+
+         }
+     }
+ }
+
+ @media (max-width: 590px) {
+     .container-nosotras {
+
+         .personajes {
+             background-color: red;
+             grid-template-columns: repeat(2, auto);
+
+
+         }
+
+     }
+ }
+
+ @media (max-width: 490px) {
+     .container-nosotras {
+
+         .personajes {
+             background-color: red;
+             grid-template-columns: repeat(2, auto);
+
+                 // Ajusta el tamaño según prefieras
+
+                 // Seleccionamos la última imagen para que ocupe las 2 columnas
+                 .last {
+                     grid-column: 1 / span 2;
+                 }
+             
+         }
+     }
+ }
