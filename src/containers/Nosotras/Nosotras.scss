@@ -86,10 +86,13 @@
      .container-nosotras {
 
          .personajes {
-       
+
              grid-template-columns: repeat(3, auto);
 
-
+             .last {
+                 grid-column-start: 2;
+                 grid-column-end: 4 !important;
+             }
          }
      }
  }
@@ -98,12 +101,10 @@
      .container-nosotras {
 
          .personajes {
-           
+
              grid-template-columns: repeat(3, auto);
 
-             //  .last {
-             //      grid-column: 1 / span 3 !important;
-             //  }
+
          }
      }
  }
@@ -113,7 +114,14 @@
          .personajes {
              grid-template-columns: repeat(2, auto);
 
-
+             .last {   
+             width: 300px;
+             height: 150px;
+             object-fit: contain;
+        
+                 grid-column-start: 1;
+                 grid-column-end: 3 !important;
+             }
          }
 
          .video-id {

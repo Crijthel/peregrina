@@ -44,7 +44,7 @@ const Nosotras = () => {
                     <img src={personaje6} className="last" alt="personaje" />
                 </div>
 
-                <h2>Video Caso </h2>
+                <h2>Videocaso </h2>
 
                 <div className="video-id">
                     {isLoading && (
@@ -53,7 +53,7 @@ const Nosotras = () => {
                     <iframe
                         loading="eager"
                         src={
-                            "https://www.youtube.com/embed/bdo0WmerAP0?si=BnNmF5kwqlVYdO6s&loop=1&playlist=bdo0WmerAP0&autoplay=1&muted=1"
+                            "https://www.youtube.com/embed/xBwNi_PUz44?si=kYy5Cw_AiTTeWmKi&loop=1&playlist=xBwNi_PUz44&autoplay=1&muted=1"
                         }
                         title={"MANIFIESTO"}
                         allowTransparency

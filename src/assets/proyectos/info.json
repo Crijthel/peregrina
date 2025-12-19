@@ -115,7 +115,7 @@
                     "nombre": "Again",
                     "descripcion": "Pieza audiovisual que hace una crítica hacia las adicciones.",
                     "autora": "Renata Panzarella",
-                    "imagen": "proyectos/motion/again_00193.png",
+                    "imagen": "proyectos/motion/again.jpg",
                     "video": "https://www.youtube.com/embed/xisCNVEp00Q?si=fKMvHLQcaL0GydEL&loop=1&playlist=xisCNVEp00Q&autoplay=1",
                     "stack": ["After Effects", "Illustrator"]
                 },
@@ -163,7 +163,7 @@
             "proyectos": [
                 {
                     "nombre": "Swiss Medical",
-                    "descripcion": "Video caso sobre campaña publicitaria realizada para Swiss medical.",
+                    "descripcion": "Videocaso sobre campaña publicitaria realizada para Swiss medical.",
                     "autora": "Clara Abate",
                     "imagen": "/proyectos/tratamiento/campana.jpg",
                     "video": "https://www.youtube.com/embed/hwGMhm_Mguo?si=rYLo3jZLI4QaCS0x&loop=1&playlist=hwGMhm_Mguo&autoplay=1",
